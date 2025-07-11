@@ -52,8 +52,20 @@ class MyLessonController extends Controller
                 'updated_at' => now(),
             ]);
         }
+        // Найти следующий урок
+        $nextLesson = DB::table('lessons')
+            ->where('course_id', $courseId)
+            ->where('id', '>', $lessonId) // Допустим, ID возрастают
+            ->orderBy('id')
+            ->first();
 
-        return redirect()->route('mycourses.show', $courseId);
+        if ($nextLesson) {
+            // Перенаправляем на следующий урок
+            return redirect()->route('lesson.show', [$courseId, $nextLesson->id]);
+        } else {
+            // Если следующего нет — вернуть на курс
+            return redirect()->route('mycourses.show', $courseId);
+        }
     }
 
 

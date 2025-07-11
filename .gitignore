@@ -46,6 +46,6 @@ serve.bat
 migrate.bat
 
 # Лишнее — эти обычно хранятся:
-#vite.config.js
-#package.json
-#package-lock.json
+vite.config.js
+package.json
+package-lock.json
