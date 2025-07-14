@@ -6,8 +6,6 @@
             <p class="text-gray-700 dark:text-gray-300"><strong>Название урока:</strong> {{ $lesson->title }}</p>
             <p class="text-gray-700 dark:text-gray-300"><strong>Дата создания:</strong>
                 {{ $lesson->created_at->format('d.m.Y H:i') }}</p>
-
-
             @foreach ($lesson->contents as $content)
                 <div class="relative bg-white dark:bg-gray-700 rounded shadow p-6 mt-6">
 
@@ -19,8 +17,6 @@
                             &times;
                         </button>
                     </form>
-
-                    {{-- Тип контента --}}
                     @if ($content->type == 'text')
                         <div>
                             <p class="text-gray-700 dark:text-gray-300"><strong>Текст:</strong></p>
@@ -50,15 +46,11 @@
                     @endif
                 </div>
             @endforeach
-
-
-
             <div class="flex gap-4 mt-6">
                 <a href="{{ route('lessons.edit', $lesson->id) }}"
                     class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded">
                     Редактировать
                 </a>
-
                 <form action="{{ route('lessons.destroy', $lesson->id) }}" method="POST"
                     onsubmit="return confirm('Удалить урок?');">
                     @csrf
@@ -68,11 +60,6 @@
                         Удалить
                     </button>
                 </form>
-                <a href="{{ route('quiz.create', [$lesson->course_id, $lesson->id]) }}"
-                   class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded">
-                    Редактировать тест
-                </a>
-
             </div>
         </div>
     </div>

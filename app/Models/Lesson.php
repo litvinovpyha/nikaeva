@@ -10,10 +10,6 @@ class Lesson extends Model
     use HasFactory;
 
     protected $fillable = ['title','course_id'];
-    public function quiz()
-    {
-        return $this->hasOne(Quiz::class);
-    }
 
     public function contents(){
         return $this->hasMany(LessonContent::class)->orderBy('position');

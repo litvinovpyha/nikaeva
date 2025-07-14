@@ -10,4 +10,5 @@ class OnlineTrainingController extends Controller
     public function show():View {
         return view('online');
     }
+
 }

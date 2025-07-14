@@ -2,9 +2,9 @@
 
 use App\Http\Controllers\CallbackController;
 use App\Http\Controllers\ConsoleController;
-use App\Http\Controllers\QuizController;
 use App\Http\Controllers\SeoController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\FreeCoursesController;
 use App\Http\Controllers\MyCoursesController;
 use App\Http\Controllers\MyLessonController;
 use App\Http\Controllers\OnlineManicureController;
@@ -31,6 +31,10 @@ Route::prefix('/kursy')->group(function () {
     Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
     Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
     Route::get('/onlayn-manikyur', [OnlineManicureController::class, 'index'])->name('courses.onlinemanicure');
+    Route::get('/besplatnyy-kurs-manikyura',[FreeCoursesController::class,'manicure'])->name('courses.free.manicure');
+    Route::get('/besplatnyy-kurs-hairstylist',[FreeCoursesController::class,'hairstylist'])->name('courses.free.hairstylist');
+    Route::get('/besplatnyy-simple-start',[FreeCoursesController::class,'simplestart'])->name('courses.free.simplestart');
+
 });
 
 Route::middleware([
@@ -42,11 +46,6 @@ Route::middleware([
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
     Route::post('/mycourses/{id}/{lesson_id}/complete', [MyLessonController::class, 'complete'])->name('lesson.complete');
-    Route::get('/mycourses/{course}/{lesson}/quiz/create', [QuizController::class, 'create'])->name('quiz.create');
-    Route::post('/mycourses/{id}/{lesson}/quiz', [QuizController::class, 'store'])->name('quiz.store');
-    Route::get('/mycourses/{id}/{lesson_id}/quiz', [QuizController::class, 'show'])->name('quiz.show');
-    Route::post('/mycourses/{id}/{lesson_id}/quiz', [QuizController::class, 'submit'])->name('quiz.submit');
-
 });
 
 
@@ -55,7 +54,6 @@ Route::get('/log-in', function () {
 });
 
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
-//    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
     Route::get('/', [ConsoleController::class, 'show'])->name('console');
     Route::resource('courses', CourseController::class);
     Route::resource('lessons', LessonsController::class);

@@ -4,9 +4,6 @@
     <div class="mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8">
 
         <h3 class="text-2xl text-gray-900 text-center mb-6">{{ $lesson->title }}</h3>
-        @if ($lesson->quiz)
-            <x-quize-section :quiz="$lesson->quiz" :lesson="$lesson" :course="$course"/>
-        @endif
 
         @php
             $sortedContents = $lesson->contents->sortBy('position');
