@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CallbackController;
 use App\Http\Controllers\ConsoleController;
+use App\Http\Controllers\QuizController;
 use App\Http\Controllers\SeoController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\MyCoursesController;
@@ -41,6 +42,11 @@ Route::middleware([
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
     Route::post('/mycourses/{id}/{lesson_id}/complete', [MyLessonController::class, 'complete'])->name('lesson.complete');
+    Route::get('/mycourses/{course}/{lesson}/quiz/create', [QuizController::class, 'create'])->name('quiz.create');
+    Route::post('/mycourses/{id}/{lesson}/quiz', [QuizController::class, 'store'])->name('quiz.store');
+    Route::get('/mycourses/{id}/{lesson_id}/quiz', [QuizController::class, 'show'])->name('quiz.show');
+    Route::post('/mycourses/{id}/{lesson_id}/quiz', [QuizController::class, 'submit'])->name('quiz.submit');
+
 });
 
 

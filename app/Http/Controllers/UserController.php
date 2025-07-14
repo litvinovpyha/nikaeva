@@ -20,10 +20,10 @@ class UserController extends Controller
     public function assignSingleCourse(User $user, Course $course)
     {
         $user->courses()->syncWithoutDetaching([$course->id]);
-    
+
         return redirect()->back()->with('success', 'Доступ к курсу "' . $course->name . '" предоставлен.');
     }
-    
+
     public function revokeCourse(User $user, Course $course)
     {
         $user->courses()->detach($course->id);

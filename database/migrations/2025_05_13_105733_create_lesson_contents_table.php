@@ -13,8 +13,8 @@ return new class extends Migration
             $table->id();
             $table->foreignId('lesson_id')->constrained()->onDelete('cascade');
             $table->enum('type', ['text', 'image', 'pdf', 'youtube'])->index();
-            $table->text('content'); 
-            $table->integer('position')->default(0); 
+            $table->text('content');
+            $table->integer('position')->default(0);
             $table->timestamps();
         });
     }
