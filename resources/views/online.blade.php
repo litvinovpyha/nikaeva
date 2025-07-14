@@ -84,7 +84,7 @@
 
 @section('content')
     {{--  мастер маникюр --}}
-    <div>
+    <div class="bg-white">
         <div
             class="grid items-center max-w-2xl grid-cols-1 px-4 py-2 mx-auto gap-x-8 gap-y-16 sm:px-6 sm:py-2 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
