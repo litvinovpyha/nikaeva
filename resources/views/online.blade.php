@@ -139,6 +139,7 @@
                                     <li class="flex items-center gap-2">✔ 36 видео уроков</li>
                                     <li class="flex items-center gap-2">✔ видео уроки в HD</li>
                                     <li class="flex items-center gap-2">✔ Обратная связь</li>
+                                    <li class="flex items-center gap-2">✔ РАССРОЧКА , KASPI RED</li>
                                     <li class="flex items-center gap-2">❌ БЕЗ СЕРТИФИКАТА</li>
                                 </ul>
                                 <a href="{{ route('callback') }}"
@@ -188,7 +189,7 @@
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">ОНЛАЙН КУРС «КОМБИНИРОВАННЫЙ
                     МАНИКЮР»</h2>
-                <p class="mt-4 text-gray-500">За 19 видео уроков научим создавать идеальный маникюр.Все о
+                <p class="mt-4 text-gray-500">За 23 видео уроков научим создавать идеальный маникюр.Все о
                     комбинированном маникюре простым языком</p>
 
                 <dl class="grid grid-cols-1 mt-16 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -233,9 +234,10 @@
                                 <h3 class="text-base font-semibold text-indigo-600">САМОСТОЯТЕЛЬНЫЙ</h3>
                                 <p class="mt-4 text-4xl font-semibold text-gray-900">7 500 &#8376;</p>
                                 <ul class="mt-6 space-y-2 text-sm text-gray-600">
-                                    <li class="flex items-center gap-2">✔ 36 видео уроков</li>
+                                    <li class="flex items-center gap-2">✔ 23 видео уроков</li>
                                     <li class="flex items-center gap-2">✔ видео уроки в HD</li>
                                     <li class="flex items-center gap-2">✔ Обратная связь</li>
+                                    <li class="flex items-center gap-2">✔ РАССРОЧКА , KASPI RED</li>
                                     <li class="flex items-center gap-2">❌ БЕЗ СЕРТИФИКАТА</li>
                                 </ul>
                                 <a href="{{ route('callback') }}"
@@ -247,7 +249,7 @@
                                 <h3 class="text-base font-semibold text-indigo-400">С СЕРТИФИКАТОМ</h3>
                                 <p class="mt-4 text-4xl font-semibold">9 000 &#8376;</p>
                                 <ul class="mt-6 space-y-2 text-sm text-gray-300">
-                                    <li class="flex items-center gap-2">✔ 36 видео уроков</li>
+                                    <li class="flex items-center gap-2">✔ 23 видео уроков</li>
                                     <li class="flex items-center gap-2">✔ видео уроки в HD</li>
                                     <li class="flex items-center gap-2">✔ Обратная связь</li>
                                     <li class="flex items-center gap-2">✔ РАССРОЧКА , KASPI RED</li>
@@ -292,22 +294,22 @@
                 <dl class="grid grid-cols-1 mt-16 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">Доступ</dt>
-                        <dd class="mt-2 text-sm text-gray-500">С покупкой вы получаете доступ на 6 месяцев</dd>
+                        <dd class="mt-2 text-sm text-gray-500">БЕСПЛАТНО</dd>
                     </div>
 
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">обратная связь</dt>
-                        <dd class="mt-2 text-sm text-gray-500">Куратор всегда на связе</dd>
+                        <dd class="mt-2 text-sm text-gray-500">При покупке платного курса</dd>
                     </div>
 
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">проверка Д/З</dt>
-                        <dd class="mt-2 text-sm text-gray-500">выполнение и проверка Д/З в зависимости от тарифа
+                        <dd class="mt-2 text-sm text-gray-500">При покупке платного курса
                         </dd>
                     </div>
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">Сертификат</dt>
-                        <dd class="mt-2 text-sm text-gray-500">электронный сертификат в зависимости от тарифа
+                        <dd class="mt-2 text-sm text-gray-500">Электронный сертификат при кокупке платного курса
                         </dd>
                     </div>
 
@@ -315,7 +317,7 @@
 
 
                 <span class="block sm:ml-3">
-                    <a href="{{ route('courses.free.hairstylist')}}"
+                    <a href="{{ route('courses.free.hairstylist') }}"
                         class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white uppercase bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden">
                         ПОЛУЧИТЬ ДОСТУП
                     </a>
@@ -345,17 +347,17 @@
                 <dl class="grid grid-cols-1 mt-16 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">Доступ</dt>
-                        <dd class="mt-2 text-sm text-gray-500">бесплатный</dd>
+                        <dd class="mt-2 text-sm text-gray-500">БЕСПЛАТНО</dd>
                     </div>
 
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">обратная связь</dt>
-                        <dd class="mt-2 text-sm text-gray-500">Куратор всегда на связе</dd>
+                        <dd class="mt-2 text-sm text-gray-500">При покупке платного курса</dd>
                     </div>
 
                     <div class="pt-4 border-t border-gray-200">
                         <dt class="font-medium text-gray-900">проверка Д/З</dt>
-                        <dd class="mt-2 text-sm text-gray-500">выполнение и проверка Д/З в зависимости от тарифа
+                        <dd class="mt-2 text-sm text-gray-500">При покупке платного курса
                         </dd>
                     </div>
                     <div class="pt-4 border-t border-gray-200">
@@ -367,7 +369,7 @@
                 </dl>
 
                 <span class="block sm:ml-3">
-                      <a href="{{ route('courses.free.manicure')}}"
+                    <a href="{{ route('courses.free.manicure') }}"
                         class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white uppercase bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden">
                         ПОЛУЧИТЬ ДОСТУП
                     </a>
