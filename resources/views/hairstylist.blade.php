@@ -1,6 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Курсы парикмахера колориста в Алматы — обучение с нуля | Indigo')
-@section('meta_description', 'Пройдите обучение парикмахер колорист в Алматы с нуля. За 2 месяца вы получите востребованную профессию, сертификат и скидку до 30%.')
+@section('meta_description', 'Пройдите обучение парикмахер колорист в Алматы с нуля. За 2 месяца вы получите
+    востребованную профессию, сертификат и скидку до 30%.')
 @section('meta_keywords',
     'Курс парикмахера, курс колориста, курс женский мастер, колористика база, обучение парикмахеров, онлайн
     курсы парикмахеров, офлайн курсы паарикмахеров, сертификат, в Алматы')
@@ -95,13 +96,11 @@
     </script>
 @endsection
 @section('content')
-    <x-hero-section
-            title="КУРСЫ ПАРИКМАХЕРА - КОЛОРИСТА В АЛМАТЫ - ОБУЧЕНИЕ С НУЛЯ ДО ПРОФИ"
-            subtitle="ОБУЧАЕМ С НУЛЯ ДО
+    <x-hero-section title="КУРСЫ ПАРИКМАХЕРА - КОЛОРИСТА В АЛМАТЫ - ОБУЧЕНИЕ С НУЛЯ ДО ПРОФИ"
+        subtitle="ОБУЧАЕМ С НУЛЯ ДО
                     ТОП-МАСТЕРА ЗА 2 МЕСЯЦА
                     СКИДКА ДО -30% НА ОБУЧЕНИЕ
-                    УСПЕЙ ЗАПИСАТЬСЯ!"
-    />
+                    УСПЕЙ ЗАПИСАТЬСЯ!" />
     @include('partials.guarantee', ['showSecondVideo' => false])
     <!-- КУРС "Парикмахер-колорист" -->
     <div class="p-4 bg-white border-t border-gray-200">
@@ -119,11 +118,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
-                                        alt="Блок по коммерческим стрижкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
+                                    alt="Блок по коммерческим стрижкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li">
@@ -168,11 +165,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
-                                        alt="Блок по углубленной колористики"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
+                                    alt="Блок по углубленной колористики" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -206,11 +201,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
-                                        alt="Блок по коммерческим укладкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
+                                    alt="Блок по коммерческим укладкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -220,11 +213,11 @@
                         </div>
 
                         <div class="pt-4 border-t border-gray-200">
-                        <span class="pb-2 mt-2 text-sm text-gray-500">Локоны на брашинг в турецкой технике
+                            <span class="pb-2 mt-2 text-sm text-gray-500">Локоны на брашинг в турецкой технике
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                        <span class="pb-2 mt-2 text-sm text-gray-500">Работа с плойками, стайлерами, щипцами
+                            <span class="pb-2 mt-2 text-sm text-gray-500">Работа с плойками, стайлерами, щипцами
                             </span>
                         </div>
                     </li>
@@ -239,11 +232,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/permanentnaya-zavivka-i-spa-uhody.webp') }}"
-                                        alt="Блок по перманентной завивке и спа уходам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/permanentnaya-zavivka-i-spa-uhody.webp') }}"
+                                    alt="Блок по перманентной завивке и спа уходам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -270,10 +261,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
                             </div>
                             <!-- Заголовок -->
@@ -304,90 +295,90 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     4 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК 8 дней практики
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК ОНЛАЙН КУРС
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 4 месяца-30 занятий по 4 часа, 18 занятий по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Посещение занятий 3 раза в неделю
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углублённая теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Рассрочка, Kaspi Red
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по продвижению: личный бренд, общение с клиентами и ценообразование
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
                     </div>
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -420,10 +411,10 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто ограничен по времени.
 
@@ -431,72 +422,72 @@
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     4 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     РАССРОЧКА, KASPI RED
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 2 месяца-30 занятий по 4 часа, 18 занятий по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Посещение занятий 3 раза в неделю или каждый день.
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углубленная теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
                     </div>
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -525,10 +516,10 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто хочет больше практики
 
@@ -536,62 +527,62 @@
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     4 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     РАССРОЧКА, KASPI RED
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 9 месяцев-144 занятия по 4 часа
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     график-3 занятия в неделю по 4 часа, блок по колористике по 8 часов в день
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углубленная теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -619,11 +610,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
-                                        alt="Блок по коммерческим стрижкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
+                                    alt="Блок по коммерческим стрижкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li">
@@ -658,11 +647,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
-                                        alt="Блок по Углублённой колористике"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
+                                    alt="Блок по Углублённой колористике" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -700,11 +687,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
-                                        alt="Блок по коммерческим укладкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
+                                    alt="Блок по коммерческим укладкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -713,11 +698,11 @@
                         </div>
 
                         <div class="pt-4 border-t border-gray-200">
-                        <span class="pb-2 mt-2 text-sm text-gray-500">Локоны на брашинг в турецкой технике
+                            <span class="pb-2 mt-2 text-sm text-gray-500">Локоны на брашинг в турецкой технике
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                        <span class="pb-2 mt-2 text-sm text-gray-500">Работа с плойками, стайлерами, щипцами
+                            <span class="pb-2 mt-2 text-sm text-gray-500">Работа с плойками, стайлерами, щипцами
                             </span>
                         </div>
                     </li>
@@ -732,11 +717,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/permanentnaya-zavivka-i-spa-uhody.webp') }}"
-                                        alt="Блок по Перманентной завивки и SPA-уходам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/permanentnaya-zavivka-i-spa-uhody.webp') }}"
+                                    alt="Блок по Перманентной завивки и SPA-уходам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -762,10 +745,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -798,90 +781,90 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     4 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК 8 дней практики
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК ОНЛАЙН КУРС
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 3 месяца-18 занятий по 4 часа, 18 занятий по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Посещение занятий 3 раза в неделю
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углубленная теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Рассрочка, Kaspi Red
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
                     </div>
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -914,90 +897,90 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто ограничен по времени.
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     4 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК 8 дней практики
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК ОНЛАЙН КУРС
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     РАССРОЧКА, KASPI RED
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 1.5 месяца-18 занятий по 4 часа, 18 занятий по 8 часов
 
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Посещение занятий 3 раза в неделю или каждый день
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углубленная теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -1024,11 +1007,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
-                                        alt="Блок по углубленной колористике"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
+                                    alt="Блок по углубленной колористике" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -1075,11 +1056,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
-                                        alt="Блок по коммерческим укладкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
+                                    alt="Блок по коммерческим укладкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -1112,10 +1091,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -1144,72 +1123,72 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Блок по колористике более 10 техник: база + повышение
 
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     реконструкция волоса
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     чек-листы по инстаграм и личному бренду
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность -18 занятий по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     график-3 раза в неделю по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Рассрочка, Kaspi Red
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     есть возможность ускоренного курса-занятия каждый день
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -1220,13 +1199,14 @@
         </div>
     </div>
     <!-- Экспресс-курс: «Женские стрижки + колористика»
- -->
+     -->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
                     Экспресс-курс: «Женские стрижки + колористика»
-                    <br> за 4 недели</h2>
+                    <br> за 4 недели
+                </h2>
                 <p class="mt-4 text-center text-gray-500">Только за 4 недели — освоите востребованные навыки и начнёте
                     зарабатывать.
                 </p>
@@ -1240,11 +1220,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
-                                        alt="Блок по коммерческим стрижкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
+                                    alt="Блок по коммерческим стрижкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li">
@@ -1285,11 +1263,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
-                                        alt="Блок по углубленной колористике"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/uglublennaya-koloristika.webp') }}"
+                                    alt="Блок по углубленной колористике" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -1299,8 +1275,8 @@
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">7 коммерческих техник окрашивания</p>
-                            <span
-                                    class="pb-2 mt-2 text-sm text-gray-500">топ 7 коммерческих техник окрашивания волос</span>
+                            <span class="pb-2 mt-2 text-sm text-gray-500">топ 7 коммерческих техник окрашивания
+                                волос</span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">Нейтрализация нежелательного пигмента</p>
@@ -1341,11 +1317,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
-                                        alt="Блок по коммерческим укладкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}"
+                                    alt="Блок по коммерческим укладкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li sm:p-2">
@@ -1375,10 +1349,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
 
                             </div>
@@ -1407,10 +1381,10 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто очень ограничен по времени и сразу после обучения планирует приступить
                                     к
@@ -1419,80 +1393,80 @@
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     3 блока
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     В ПОДАРОК ОНЛАЙН КУРС
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Предоставляем голову-манекен для постановки руки на занятиях
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     длительность 4 недели
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     80% практики + углубленная теория
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     график — 5 занятий в неделю по 6-8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Рассрочка, Kaspi Red
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -1503,7 +1477,7 @@
         </div>
     </div>
     <!-- Повышающий курс «Каскады. Комбинация техник “Слои”»
- -->
+     -->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
@@ -1522,11 +1496,9 @@
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/povishayushiy-kurs-kaskadi.webp') }}"
-                                        alt="Блок по каскадам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/povishayushiy-kurs-kaskadi.webp') }}"
+                                    alt="Блок по каскадам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li">
@@ -1594,10 +1566,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
                             </div>
 
@@ -1625,10 +1597,10 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто хочет изучить от и до тему «Каскадов», у кого остались вопросы после
                                     прошлых курсов:
@@ -1636,44 +1608,44 @@
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     2 занятия по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     РАССРОЧКА, KASPI RED
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Предоставляем голову-манекен для постановки руки на занятиях
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     практики + углубленная теория
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -1698,11 +1670,9 @@
                     <li class="left-li">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                        src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
-                                        alt="Блок по коммерческим стрижкам"
-                                        width="320"
-                                        height="320"
-                                        class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
+                                    src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
+                                    alt="Блок по коммерческим стрижкам" width="320" height="320"
+                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
                         </div>
                     </li>
                     <li class="right-li">
@@ -1764,10 +1734,10 @@
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
-                                class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
+                            class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <!-- Метка скидки -->
                             <div
-                                    class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
+                                class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
                                 -30% до 5 августа
                             </div>
 
@@ -1794,10 +1764,10 @@
                             <ul role="list" class="mt-8 space-y-3 text-sm text-gray-200">
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Для тех, кто хочет изучить от и до тему «Каре», у кого остались вопросы после
                                     прошлых
@@ -1805,44 +1775,44 @@
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     2 занятия по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     РАССРОЧКА, KASPI RED
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     Предоставляем голову-манекен для постановки руки на занятиях
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                         viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
-                                              d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                              clip-rule="evenodd"/>
+                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                                            clip-rule="evenodd" />
                                     </svg>
                                     практики + углубленная теория
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
                             <a href="{{ route('callback') }}"
-                               class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                                class="block w-full px-5 py-3 mt-8 text-sm font-semibold text-center text-white bg-indigo-700 rounded-md shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                                 ЗАПИСАТЬСЯ
                             </a>
                         </div>
@@ -1852,8 +1822,10 @@
             </div>
         </div>
     </div>
-    @include('partials.coursesingup', ['title' => 'Почему вам стоит записаться на курс парикмахера в школе indigo:',
-'count' => '8',])
+    @include('partials.coursesingup', [
+        'title' => 'Почему вам стоит записаться на курс парикмахера в школе indigo:',
+        'count' => '8',
+    ])
     @include('partials.reviews', ['video' => 'true', 'content' => 'hairstylist'])
     @include('partials.portfolio-hair')
 
@@ -1869,15 +1841,14 @@
                     <!-- Видео -->
                     <div class="w-full max-w-2xl overflow-hidden shadow-lg aspect-video rounded-xl">
                         <iframe class="w-full h-full" src="https://www.youtube.com/embed/Gxg9fuGWhoY"
-                                title="Видеоотзыв 2" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                            title="Видеоотзыв 2" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                     <!-- Фото -->
                     <div class="overflow-hidden shadow-xl h-96 w-72 rounded-2xl">
                         <img src="{{ asset('images/team/karina.webp') }}"
-                             alt="Карина тренер курса парикмахерского мастерства"
-                             class="object-cover w-full h-full">
+                            alt="Карина тренер курса парикмахерского мастерства" class="object-cover w-full h-full">
                     </div>
                 </div>
 

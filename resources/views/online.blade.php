@@ -315,7 +315,7 @@
 
 
                 <span class="block sm:ml-3">
-                     <a href="{{ route('courses.free.hairstylist')}}"
+                    <a href="{{ route('courses.free.hairstylist')}}"
                         class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white uppercase bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden">
                         ПОЛУЧИТЬ ДОСТУП
                     </a>
@@ -367,7 +367,7 @@
                 </dl>
 
                 <span class="block sm:ml-3">
-                    <a href="#"
+                      <a href="{{ route('courses.free.manicure')}}"
                         class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white uppercase bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden">
                         ПОЛУЧИТЬ ДОСТУП
                     </a>
@@ -433,7 +433,7 @@
                 </dl>
 
                 <span class="block sm:ml-3">
-                    <a href="#"
+                    <a href="{{ route('courses.free.simplestart') }}"
                         class="flex items-center justify-center w-full px-8 py-3 mt-10 text-base font-medium text-white uppercase bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden">
                         ПОЛУЧИТЬ ДОСТУП
                     </a>
