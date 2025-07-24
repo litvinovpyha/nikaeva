@@ -50,6 +50,7 @@
         "@type": "CourseInstance",
         "courseMode": "Offline",
         "startDate": "{{ $nextMonday }}",
+        "courseSchedule": "Пн-Пт с 10:00 до 18:00",
         "location": {
           "@type": "Place",
           "name": "Школа-студия Indigo",
@@ -61,6 +62,7 @@
         }
       },
       "offers": {
+        "category": "Парикмахерское искусство",
         "@type": "Offer",
         "url": "{{ url('/kursy/parikmaher') }}",
         "price": "175000",
@@ -83,6 +85,7 @@
         "@type": "CourseInstance",
         "courseMode": "Offline",
         "startDate": "{{ $nextMonday }}",
+        "courseSchedule": "Пн-Пт с 10:00 до 18:00",
         "location": {
           "@type": "Place",
           "name": "Школа-студия Indigo",
@@ -94,6 +97,7 @@
         }
       },
       "offers": {
+        "category": "Маникюр",
         "@type": "Offer",
         "url": "{{ url('/kursy/manikyur') }}",
         "price": "119990",
@@ -113,11 +117,12 @@
         "url": "{{ url('/') }}"
       },
       "hasCourseInstance": {
-        "@type": "CourseInstance",
-        "courseMode": "Online",
-        "startDate": "{{ $nextMonday }}"
-      },
+    "@type": "CourseInstance",
+    "courseMode": "Online",
+    "courseSchedule": "Гибкий график"
+  },
       "offers": {
+        "category": "Онлайн маникюр",
         "@type": "Offer",
         "url": "{{ url('/kursy/onlayn-manikyur') }}",
         "price": "7500",
