@@ -12,8 +12,9 @@
 
 @php
     use Carbon\Carbon;
-    $nextMonday = Carbon\Carbon::now()->next(Carbon\Carbon::MONDAY)->format('Y-m-d');
+    $nextMonday = Carbon::now()->next(Carbon::MONDAY)->format('Y-m-d');
 @endphp
+
 
 @section('jsonld')
 <script type="application/ld+json">
