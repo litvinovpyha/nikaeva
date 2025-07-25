@@ -48,9 +48,11 @@
       },
       "hasCourseInstance": {
         "@type": "CourseInstance",
-        "courseMode": "Offline",
+        "courseMode": "Onsite",
         "startDate": "{{ $nextMonday }}",
         "courseSchedule": "Пн-Пт с 10:00 до 18:00",
+         "repeatCount": 4,
+      "repeatFrequency": "Weekly",
         "location": {
           "@type": "Place",
           "name": "Школа-студия Indigo",
@@ -83,9 +85,11 @@
       },
       "hasCourseInstance": {
         "@type": "CourseInstance",
-        "courseMode": "Offline",
+        "courseMode": "Onsite",
         "startDate": "{{ $nextMonday }}",
         "courseSchedule": "Пн-Пт с 10:00 до 18:00",
+         "repeatCount": 4,
+      "repeatFrequency": "Weekly",
         "location": {
           "@type": "Place",
           "name": "Школа-студия Indigo",
@@ -120,6 +124,8 @@
     "@type": "CourseInstance",
     "courseMode": "Online",
     "courseSchedule": "Гибкий график"
+     "repeatCount": 31,
+      "repeatFrequency": "Daily",
   },
       "offers": {
         "category": "Онлайн маникюр",
