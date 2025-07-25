@@ -125,7 +125,7 @@
     "courseMode": "Online",
     "courseSchedule": "Гибкий график",
     "repeatCount": 31,
-    "repeatFrequency": "Daily",
+    "repeatFrequency": "Daily"
   },
       "offers": {
         "category": "Онлайн маникюр",
