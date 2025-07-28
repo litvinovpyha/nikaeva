@@ -1,9 +1,9 @@
 User-agent: *
 Disallow: /console/
-Disallow: /mycourses
+Disallow: /mycourses/
 Disallow: /log-in
-Disallow: /register
-Disallow: /sanctum
+Disallow: /login
+
 Allow: /
 
 Sitemap: https://pokhlebaeva.pro/sitemap.xml
