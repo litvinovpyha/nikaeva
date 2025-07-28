@@ -563,7 +563,9 @@
             </div>
         </div>
     </div>
-    @include('partials.coursesingup', ['title' => 'Вам подойдут наши курсы, если вы:'])
-    @include('partials.reviews', ['video' => 'false', 'content' => 'lamination'])
+    @include('partials.coursesingup', [
+        'title' => 'Почему вам стоит записаться в школу красоты indigo:',
+        'count' => '8',
+    ])    @include('partials.reviews', ['video' => 'false', 'content' => 'lamination'])
     @include('partials.team', ['title' => 'Тренер Курса', 'persons' => ['olya', 'veronika', 'vika']])
 @endsection
