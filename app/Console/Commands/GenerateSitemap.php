@@ -25,7 +25,11 @@ class GenerateSitemap extends Command
             ->add(Url::create('/kursy/parikmaher'))
             ->add(Url::create('/kursy/manikyur'))
             ->add(Url::create('/kursy/laminirovanie'))
-            ->add(Url::create('/kursy/onlayn-manikyur'));
+            ->add(Url::create('/kursy/onlayn-manikyur'))
+            ->add(Url::create('/kursy/besplatnyy-kurs-manikyura'))
+            ->add(Url::create('/kursy/besplatnyy-kurs-hairstylist'))
+            ->add(Url::create('/kursy/besplatnyy-simple-start'));
+
 
         $sitemap->writeToFile(public_path('sitemap.xml'));
 
