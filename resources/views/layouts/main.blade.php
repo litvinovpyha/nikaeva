@@ -20,10 +20,7 @@
     @livewireStyles
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="canonical" href="{{ url()->current() }}"/>
-    {!! \App\Models\Setting::where('key', 'gtm_code')->first()?->value !!}
-
 </head>
-
 <body class="font-sans">
 @include('layouts.header')
 <main class="min-h-screen pt-20">
@@ -32,5 +29,4 @@
 @include('layouts.footer')
 @include('partials.whatsappjoin')
 </body>
-
 </html>
