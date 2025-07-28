@@ -41,9 +41,8 @@
 @section('content')
     <x-hero-section
         title=" ОНЛАЙН КУРС МАНИКЮРА И ПЕДИКЮРА — СТАНЬ ПРОФЕССИОНАЛОМ С НУЛЯ"
-        subtitle="  НАУЧИМ ДЕЛАТЬ «ДОРОГОЙ» МАНИКЮР
-                    И ЗАРАБАТЫВАТЬ ОТ 400K
-                    СКИДКА ДО -30 % НА ОБУЧЕНИЕ"
+        subtitle="НАУЧИМ ДЕЛАТЬ «ДОРОГОЙ» МАНИКЮР"
+        subsubtitle="И ЗАРАБАТЫВАТЬ ОТ 400K СКИДКА ДО -30 % НА ОБУЧЕНИЕ"
     />
     @include('partials.guarantee', ['showFirstVideo' => false])
     <div class="p-4 bg-white border-t border-gray-200">

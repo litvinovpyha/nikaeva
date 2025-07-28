@@ -24,7 +24,8 @@
 
 <x-hero-section
     title="Бесплатный курс «Лёгкий старт»"
-    subtitle="Откройте доступ к урокам: как найти своё предназначение, поставить цели, выстроить личный бренд и сервис."
+    subtitle="Откройте доступ к урокам: как найти своё предназначение,"
+    subsubtitle="поставить цели, выстроить личный бренд и сервис."
 />
 
 <div class="max-w-5xl px-4 py-12 mx-auto">
@@ -73,7 +74,7 @@
                             class="rounded-md bg-indigo-700 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             ОСТАВИТЬ ЗАЯВКУ НА ОБРАТНЫЙ ЗВОНОК
                         </a>
-                    
+
                     </div>
                 </div>
 

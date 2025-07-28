@@ -67,6 +67,7 @@
     <x-hero-section
         title="ОНЛАЙН КУРС ЛАМИНИРОВАНИЯ РЕСНИЦ И БРОВЕЙ С СЕРТИФИКАТОМ - ШАНС СТАТЬ УСМЕШНЫМ ЛАММЕЙКЕРОМ"
         subtitle="И БЫТЬ НА ШАГ ВПЕРЕДИ КОНКУРЕНТОВ"
+        subsubtitle=" "
     />
 
     <div class="p-4 bg-white border-t border-gray-200">

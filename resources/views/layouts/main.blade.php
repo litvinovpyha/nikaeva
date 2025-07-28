@@ -16,7 +16,7 @@
     <meta property="og:image" content="{{ asset('images/share.webp') }}">
     <meta property="og:locale" content="ru_RU">
     <meta property="og:site_name" content="Школа Indigo">
-    <meta property="og:url" content="https://pokhlebaeva.pro/">
+    <meta property="og:url" content="{{ url()->current() }}">
 
     @yield('jsonld')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
