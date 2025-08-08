@@ -21,6 +21,7 @@ class GenerateSitemap extends Command
         $sitemap = Sitemap::create()
             ->add(Url::create('/'))
             ->add(Url::create('/obratnyi-zvonok'))
+            ->add(Url::create('/politika-konfidencialnosti'))
             ->add(Url::create('/kursy/online-kursy'))
             ->add(Url::create('/kursy/parikmaher'))
             ->add(Url::create('/kursy/manikyur'))

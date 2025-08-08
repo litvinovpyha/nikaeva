@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [IndexController::class, 'index'])->name('home');
 Route::get('/obratnyi-zvonok', [CallbackController::class, 'show'])->name('callback');
 Route::post('/obratnyi-zvonok', [CallbackController::class, 'store'])->name('callback.submit');
-
+Route::get('/politika-konfidencialnosti', function () {
+    return view('privacy');
+});
 
 Route::prefix('/kursy')->group(function () {
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
