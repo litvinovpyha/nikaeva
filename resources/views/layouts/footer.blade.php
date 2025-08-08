@@ -94,8 +94,8 @@
             </div>
         </div>
             <div class="px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a href="https://pokhlebaeva.pro/">Школа
-                    Indigo</a>. Все права защищены.
+            <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a href="https://pokhlebaeva.pro/politika-konfidencialnosti">Школа-студия красоты
+                    Indigo. <br class="lg:hidden"> <span class="text-blue-500">Политика конфиденциальности.</span></a>
             </span>
 
         </div>
