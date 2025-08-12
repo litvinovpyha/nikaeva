@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CallbackController;
+use App\Http\Controllers\ColoristController;
 use App\Http\Controllers\ConsoleController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\FreeCoursesController;
@@ -46,6 +47,7 @@ Route::middleware([
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
     Route::post('/mycourses/{id}/{lesson_id}/complete', [MyLessonController::class, 'complete'])->name('lesson.complete');
+    Route::get('/calc',[ColoristController::class,'index'])->name('calc');
 });
 
 
