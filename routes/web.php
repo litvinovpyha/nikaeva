@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CallbackController;
 use App\Http\Controllers\ColoristController;
+use App\Http\Controllers\ColoristikaController;
 use App\Http\Controllers\ConsoleController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\FreeCoursesController;
@@ -17,6 +18,7 @@ use App\Http\Controllers\ManicureController;
 use App\Http\Controllers\OnlineTrainingController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\WoomanHairstylistController;
+use App\Http\Controllers\WoomanStylistController;
 use App\Http\Middleware\IsAdmin;
 use Illuminate\Support\Facades\Route;
 
@@ -30,6 +32,8 @@ Route::get('/politika-konfidencialnosti', function () {
 Route::prefix('/kursy')->group(function () {
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
     Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hairstylist');
+    Route::get('/woomanstylist', [WoomanStylistController::class, 'index'])->name('courses.woomanstylist');
+    Route::get('/coloristika', [ColoristikaController::class, 'index'])->name('courses.coloristika');
     Route::get('/womanhairstylist', [WoomanHairstylistController::class, 'index'])->name('courses.womanhairstylist');
     Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
     Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
