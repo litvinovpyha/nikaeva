@@ -153,7 +153,7 @@
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">12 коммерческих женских стрижек</p>
                             <span class="pb-2 mt-2 text-sm text-gray-500">12 коммерческих женских экспресс-стрижек по
-                                авторским схемам — легко освоите даже без опыта
+                                авторским схемам — легко освоите даже без опыта, влючающие: каскадные формы, каре, пикси и ровная длина
                             </span>
                         </div>
 
@@ -185,9 +185,10 @@
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">10 коммерческих техник окрашивания</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">ТОП-10 коммерческих техник окрашивания, включая
-                                Highlights , Babylights и Airtouch
-
+                            <span class="pb-2 mt-2 text-sm text-gray-500">
+                                ТОП-10 коммерческих техник окрашивания, включая:
+                                Рельефное окрашивание: Highlights , Babylights,
+                                Airtouch, Бразильское окрашивание, Шатуш, Контуринг, прошивку седины, матирование седины.
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
@@ -252,11 +253,7 @@
                             </p>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">5 техник завивки, включая Boost Up (3 в теории + 2
-                                в
-                                практике)
-
-                            </p>
+                            <p class="font-medium text-gray-900">Биоперманентная завивка волос</p>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">SPA-коктейли, восстановление и реконструкция волос
@@ -640,7 +637,7 @@
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">12 коммерческих женских стрижек</p>
                             <span class="pb-2 mt-2 text-sm text-gray-500">12 коммерческих женских экспресс-стрижек по
-                                авторским схемам — легко освоите даже без опыта
+                                авторским схемам — легко освоите даже без опыта, влючающие: каскадные формы, каре, пикси и ровная длина
 
                             </span>
                         </div>
@@ -736,11 +733,7 @@
                         </div>
                         <div class="pt-4 border-t border-gray-200">
 
-                            <p class="font-medium text-gray-900">5 техник завивки, включая Boost Up (3 в теории + 2
-                                в
-                                практике)
-
-                            </p>
+                            <p class="font-medium text-gray-900">Биоперманентная завивка волос</p>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">SPA-коктейли, восстановление и реконструкция волос
