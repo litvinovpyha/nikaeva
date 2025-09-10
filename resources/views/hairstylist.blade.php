@@ -664,8 +664,9 @@
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">10 коммерческих техник окрашивания</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Включая Highlights , Babylights и Airtouch
-
+                            <span class="pb-2 mt-2 text-sm text-gray-500">  ТОП-10 коммерческих техник окрашивания, включая:
+                                Рельефное окрашивание: Highlights , Babylights,
+                                Airtouch, Бразильское окрашивание, Шатуш, Контуринг, прошивку седины, матирование седины.
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
@@ -1022,8 +1023,9 @@
                         </div>
                         <div class="pt-4 border-t border-gray-200">
                             <p class="font-medium text-gray-900">10 коммерческих техник окрашивания волос</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500"> включая Highlights, Babylights и Airtouch
-
+                            <span class="pb-2 mt-2 text-sm text-gray-500">   ТОП-10 коммерческих техник окрашивания, включая:
+                                Рельефное окрашивание: Highlights , Babylights,
+                                Airtouch, Бразильское окрашивание, Шатуш, Контуринг, прошивку седины, матирование седины.
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">

@@ -37,7 +37,7 @@
 <p class="mb-2 text-gray-500 ">1. Первичная и вторичная техника
     нанесения красителя, работа с сединой</p>
 <p class="mb-2 text-gray-500 ">2. Babylights</p>
-<p class="mb-2 text-gray-500 ">3. Air touch</p>
+<p class="mb-2 text-gray-500 ">3. Airtouch</p>
 <p class="mb-2 text-gray-500 ">4. Бразильское окрашивание</p>
 <p class="mb-2 text-gray-500 ">5. Шатуш</p>
 <p class="mb-2 text-gray-500 ">6. Контуринг</p>

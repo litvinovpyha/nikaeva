@@ -10,7 +10,7 @@
     ✔Highlights
 </p>
 <p class="mb-2 text-gray-500 ">5. Бразильское окрашивание</p>
-<p class="mb-2 text-gray-500 ">6. Air touch</p>
+<p class="mb-2 text-gray-500 ">6. Airtouch</p>
 <p class="mb-2 text-gray-500 ">7. Шатуш</p>
 <p class="mb-2 text-gray-500 ">8. Контуринг</p>
 <p class="mb-2 text-gray-500 ">9. Декапирование</p>
