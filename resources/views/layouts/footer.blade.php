@@ -97,8 +97,12 @@
                         <a href="{{ route('courses.woomanstylist') }}" class="hover:underline">Женский парикмахер - колорист</a>
                     </li>
                     <li class="mb-4">
+                        <a href="{{ route('courses.hairstylistup') }}" class="hover:underline">Повышающий курс по стрижкам</a>
+                    </li>
+                    <li class="mb-4">
                         <a href="{{ route('courses.manicure') }}" class="hover:underline">Маникюр</a>
                     </li>
+                
                 </ul>
             </div>
         </div>

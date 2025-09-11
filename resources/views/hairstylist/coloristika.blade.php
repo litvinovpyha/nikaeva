@@ -1,12 +1,12 @@
 @extends('layouts.main')
-@section('title', 'ЖЕНСКИХ СТРИЖЕК И КОЛОРИСТИКИ В АЛМАТЫ — обучение с нуля | Школа Indigo')
+@section('title', 'Курс колориста в Алматы — обучение колористике с нуля до профи | Школа Indigo')
 
-@section('meta_description','Онлайн и офлайн обучение, сертификаты, практика. Запишитесь сейчас и получите скидку до 30%')
+@section('meta_description','Обучение колористике в Алматы: база + повышение. Секреты идеального цвета, практика, диплом и поддержка мастеров. Запишитесь сейчас и получите скидку до 30%!')
 
 
 
-@section('meta_keywords','Школа парикмахеров, Курс парикмахера, курс колориста, курс женский мастер, колористика база, обучение парикмахеров, онлайн
-    курсы парикмахеров, офлайн курсы паарикмахеров, сертификат в Алматы')
+@section('meta_keywords','курс колориста Алматы, обучение колористике, курсы колористики, школа парикмахеров, колористика база и повышение, обучение парикмахеров Алматы
+')
 
 
 @section('jsonld')
@@ -14,19 +14,17 @@
         {
           "@context": "https://schema.org",
           "@graph": [
-              {
-      "@type": "Course",
-      "name": "Экспресс курс женские стрижки и колористика",
-      "description": "коммерческие стрижки,колористика, коммерческие укладки. за 4 недели, за 1 месяц, работа с блондом и пигментами.",
+            {
+               "@type": "Course",
+      "name": "Курс колористика база и повышение секреты идеального цвета",
+      "description": "Обучение колористика база и повышение, секрет идеального цвета. Практика, диплом и поддержка.",
       "provider": {
         "@type": "Organization",
         "name": "Indigo",
         "url": "{{ url('/') }}"
       
-
       }
     },
-
       {
       "@type": "FAQPage",
       "mainEntity": [
@@ -61,7 +59,7 @@
     </script>
 @endsection
 @section('content')
-    <x-hero-section title="КУРС ЖЕНСКИХ СТРИЖЕК И КОЛОРИСТИКИ В АЛМАТЫ - ОБУЧЕНИЕ С НУЛЯ ДО ПРОФИ"
+    <x-hero-section title="КУРС КОЛОРИСТА В АЛМАТЫ - ОБУЧЕНИЕ С НУЛЯ И ПОВЫШЕНИЕ КВАЛИФИКАЦИИ"
         subtitle="ОБУЧАЕМ С НУЛЯ ДО
                     ТОП-МАСТЕРА ЗА 2 МЕСЯЦА
                    "
@@ -73,68 +71,21 @@
 
     @include('partials.guarantee', ['showSecondVideo' => false])
 
-    <!-- Экспресс-курс: «Женские стрижки + колористика»
-         -->
+    <!-- КУРС "Колористика база + повышение. Секреты идеального цвета" -->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
-                    Экспресс-курс: «Женские стрижки + колористика»
-                    <br> за 4 недели
-                </h2>
-                <p class="mt-4 text-center text-gray-500">Только за 4 недели — освоите востребованные навыки и начнёте
-                    зарабатывать.
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">КУРС
+                    "Колористика база + повышение. Секреты идеального цвета"</h2>
+                <p class="mt-4 text-center text-gray-500">Программа курса подойдёт как начинающим, так и действующим
+                    мастерам. Вы освоите 10+ востребованных техник окрашивания, разберёте сложные ситуации и научитесь
+                    создавать идеальный цвет без страха.
                 </p>
-
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Женские коммерческие
-                                стрижки
-
-                            </p>
-
-                            <span class="flex justify-center mt-2 text-sm text-gray-500"><img
-                                    src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}"
-                                    alt="Блок по коммерческим стрижкам" width="320" height="320"
-                                    class="object-cover w-full max-w-xs rounded-lg shadow-md"></span>
-                        </div>
-                    </li>
-                    <li class="right-li">
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Геометрия стрижек</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Геометрия стрижек. Фундаментальные техники
-                                стрижек: круг, треугольник, квадрат и их комбинации
-                            </span>
-                        </div>
-
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Три основные техники исполнения</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Основы английской школы: линия, слои,
-                                градуировка
-
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">9 коммерческих женских стрижек</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Работаем
-                                по
-                                авторским схемам стрижек, где вы сможете выполнить экспресс стрижку, даже если вы
-                                новичок
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Техники различных срезов — для точности и стиля
-                            </p>
-
-                        </div>
-                    </li>
-                </ul>
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
-                    <li class="left-li">
-                        <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Углублённая
-                                колористика (база + повышение)
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Углублённая
+                                колористика
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -145,36 +96,32 @@
                     </li>
                     <li class="right-li sm:p-2">
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Углубленная колористика</p>
+                            <p class="font-medium text-gray-900">Углублённая колористика: от основ до продвинутого
+                                уровня
+
+                            </p>
                             <span class="pb-2 mt-2 text-sm text-gray-500">Углубленная колористика БАЗА+ ПОВЫШЕНИЕ</span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">7 коммерческих техник окрашивания</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">топ 7 коммерческих техник окрашивания
-                                волос</span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Нейтрализация нежелательного пигмента</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научим работать с корректорами, смешивать
-                                грамотно
-                                красители, расскажем что такое % оксиданта и как его использовать, как нейтрализовать
-                                нежелательный пигмент. Водные, пенные бани, бани для нейтрализации
-                                нежелательного пигмента, цветовые бани, американский шампунь
+                            <p class="font-medium text-gray-900">10 коммерческих техник окрашивания волос</p>
+                            <span class="pb-2 mt-2 text-sm text-gray-500">   ТОП-10 коммерческих техник окрашивания, включая:
+                                Рельефное окрашивание: Highlights , Babylights,
+                                Airtouch, Бразильское окрашивание, Шатуш, Контуринг, прошивку седины, матирование седины.
                             </span>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Корректное смешивание красителей и работа с
-                                корректорами
+                            <p class="font-medium text-gray-900">Работа с корректорами и составление формул
                             </p>
 
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Разбор % оксиданта, его функции и применение
+                            <p class="font-medium text-gray-900">Глубокое понимание % оксиданта — как выбрать и
+                                применять
                             </p>
 
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Методы нейтрализации фона:
+                            <p class="font-medium text-gray-900">Нейтрализация нежелательного фона:
                             </p>
                             <span class="pb-2 mt-2 text-sm text-gray-500">▪ воздушные бани <br>
                                 ▪ цветовые бани <br>
@@ -187,7 +134,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 3. Укладки и SPA-уходы
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Коммерческие укладки
 
                             </p>
 
@@ -199,28 +146,31 @@
                     </li>
                     <li class="right-li sm:p-2">
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">7 универсальных укладок на разную длину волос
+                            <p class="font-medium text-gray-900">Вы научитесь создавать укладки, которые отлично
+                                дополняют окрашивание и повышают чек за услугу.
                             </p>
                         </div>
+                        <div class="pt-4 border-t border-gray-200">
+                            <p class="font-medium text-gray-900">Быстрые и стойкие укладки
+                            </p>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Локоны на брашинг (турецкая техника)
-                            </p>
                         </div>
                         <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Работа с плойками, фенами, стайлерами
-                            </p>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">SPA-коктейли и реконструкция волос — для
-                                восстановления после окрашивания
+                            <p class="font-medium text-gray-900">Под разные типы волос и длину
 
                             </p>
+
                         </div>
+                        <div class="pt-4 border-t border-gray-200">
+                            <p class="font-medium text-gray-900">Брашинг, щипцы, стайлеры
+                            </p>
+
+                        </div>
+
                     </li>
                 </ul>
 
-                @include('partials.accordion', ['id' => 4, 'content' => 'womancoloristika'])
+                @include('partials.accordion', ['id' => 3, 'content' => 'colorist'])
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
@@ -234,21 +184,21 @@
 
                             <!-- Заголовок -->
                             <h3 class="pt-2 mb-4 text-sm font-semibold tracking-wide text-center text-white uppercase">
-                                Цена Экспресс курса "Женские стрижки + колористика"
-                                за 4 недели
+                                Цена Курса колористики база + повышение. секреты идеального цвета
+
                             </h3>
                             <div class="space-y-2 gap sm:space-y-1 sm:flex sm:flex-wrap sm:items-baseline sm:gap-x-10">
 
                                 <!-- Старая цена + новая -->
                                 <p class="flex items-baseline text-sm gap-x-2">
-                                    <span class="text-base text-gray-400 line-through sm:text-sm">615 000 ₸</span>
-                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">430 000 ₸</span>
+                                    <span class="text-base text-gray-400 line-through sm:text-sm">460 000 ₸</span>
+                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">320 000 ₸</span>
                                 </p>
 
                                 <!-- Рассрочка -->
                                 <p class="text-sm text-gray-300">
                                     В рассрочку на <span class="font-medium text-white">12 мес.</span> по
-                                    <span class="font-medium text-white">35 833 ₸/мес.</span>
+                                    <span class="font-medium text-white">26 666 ₸/мес.</span>
                                 </p>
 
                             </div>
@@ -261,9 +211,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    Для тех, кто очень ограничен по времени и сразу после обучения планирует приступить
-                                    к
-                                    работе или был большой перерыв в работе:
+                                    Блок по колористике более 10 техник: база + повышение
 
                                 </li>
                                 <li class="flex gap-x-3">
@@ -273,7 +221,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    3 блока
+                                    реконструкция волоса
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
@@ -282,7 +230,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    В ПОДАРОК ОНЛАЙН КУРС
+                                    чек-листы по инстаграм и личному бренду
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
@@ -291,7 +239,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    Предоставляем голову-манекен для постановки руки на занятиях
+                                    длительность -18 занятий по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
@@ -300,25 +248,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    длительность 4 недели
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                        viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    80% практики + углубленная теория
-                                </li>
-                                <li class="flex gap-x-3">
-                                    <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
-                                        viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
-                                            clip-rule="evenodd" />
-                                    </svg>
-                                    график — 5 занятий в неделю по 6-8 часов
+                                    график-3 раза в неделю по 8 часов
                                 </li>
                                 <li class="flex gap-x-3">
                                     <svg class="flex-none w-5 h-6 text-indigo-400" fill="currentColor"
@@ -336,7 +266,7 @@
                                             d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
                                             clip-rule="evenodd" />
                                     </svg>
-                                    Чек-листы по оформлению страницы в инстаграм, общению с клиентами и личному бренду
+                                    есть возможность ускоренного курса-занятия каждый день
                                 </li>
                             </ul>
                             <!-- Кнопка записи -->
@@ -351,9 +281,9 @@
             </div>
         </div>
     </div>
-
+  
     @include('partials.coursesingup', [
-        'title' => 'Почему вам стоит записаться на курс женских стрижек и колористики в школе indigo:',
+        'title' => 'Почему вам стоит записаться на курс колориста в школе indigo:',
         'count' => '8',
     ])
     @include('partials.reviews', ['video' => 'true', 'content' => 'hairstylist'])

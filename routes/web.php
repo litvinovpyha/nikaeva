@@ -11,6 +11,7 @@ use App\Http\Controllers\MyLessonController;
 use App\Http\Controllers\OnlineManicureController;
 use App\Http\Controllers\LaminationController;
 use App\Http\Controllers\HairstylistController;
+use App\Http\Controllers\HairstylistUpController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\LessonContentController;
 use App\Http\Controllers\LessonsController;
@@ -30,18 +31,25 @@ Route::get('/politika-konfidencialnosti', function () {
 });
 
 Route::prefix('/kursy')->group(function () {
+    //  онлайн курсы
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
+//    парикмахер
     Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hairstylist');
-    Route::get('/woomanstylist', [WoomanStylistController::class, 'index'])->name('courses.woomanstylist');
-    Route::get('/coloristika', [ColoristikaController::class, 'index'])->name('courses.coloristika');
-    Route::get('/womanhairstylist', [WoomanHairstylistController::class, 'index'])->name('courses.womanhairstylist');
+    Route::get('/povyshayushchiy-kurs-po-strizhkam', [HairstylistController::class, 'hairstylistup'])->name('courses.hairstylistup');
+    Route::get('/zhenskie-strizhki-koloristika', [HairstylistController::class, 'woomanstylist'])->name('courses.woomanstylist');
+    Route::get('/koloristika-baza-povyshenie', [HairstylistController::class, 'coloristika'])->name('courses.coloristika');
+    Route::get('/zhenskiy-master-kolorist', [HairstylistController::class, 'womanhairstylist'])->name('courses.womanhairstylist');
+//    маникюр
     Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
+    // Route::get('/manicurebaza', [ManicureController::class, 'manicurebaza'])->name('courses.manicurebaza');
+//   лами
     Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
+    // онлайн маникюр
     Route::get('/onlayn-manikyur', [OnlineManicureController::class, 'index'])->name('courses.onlinemanicure');
-    Route::get('/besplatnyy-kurs-manikyura',[FreeCoursesController::class,'manicure'])->name('courses.free.manicure');
-    Route::get('/besplatnyy-kurs-hairstylist',[FreeCoursesController::class,'hairstylist'])->name('courses.free.hairstylist');
-    Route::get('/besplatnyy-simple-start',[FreeCoursesController::class,'simplestart'])->name('courses.free.simplestart');
-
+    //  бесплатные курсы
+    Route::get('/besplatnyy-kurs-manikyura', [FreeCoursesController::class, 'manicure'])->name('courses.free.manicure');
+    Route::get('/besplatnyy-kurs-hairstylist', [FreeCoursesController::class, 'hairstylist'])->name('courses.free.hairstylist');
+    Route::get('/besplatnyy-simple-start', [FreeCoursesController::class, 'simplestart'])->name('courses.free.simplestart');
 });
 
 Route::middleware([
@@ -53,7 +61,6 @@ Route::middleware([
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
     Route::post('/mycourses/{id}/{lesson_id}/complete', [MyLessonController::class, 'complete'])->name('lesson.complete');
-    Route::get('/calc',[ColoristController::class,'index'])->name('calc');
 });
 
 

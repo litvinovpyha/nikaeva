@@ -129,12 +129,12 @@
         subsubtitle="— НАЧНИ КАРЬЕРУ УЖЕ СЕГОДНЯ!"
     />
     @include('partials.guarantee', ['showFirstVideo' => false])
+    {{--                     Базовый курс маникюра "идеальный комбинированный" --}}
     <div class="p-4 bg-white border-t border-gray-200">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">Базовый
-                    курс
-                    маникюра "идеальный комбинированный"
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
+                    Базовый курс маникюра "идеальный комбинированный"
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
@@ -306,13 +306,13 @@
             </div>
         </div>
     </div>
+    {{-- интенсивный курс маникюра "идеальный комбинированный+ аппаратный" --}}
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
-                    интенсивный
-                    курс маникюра
-                    "идеальный комбинированный+ аппаратный"</h2>
+                    интенсивный курс маникюра "идеальный комбинированный+ аппаратный"
+                </h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
                 <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
@@ -1252,11 +1252,12 @@
             </div>
         </div>
     </div>
+    {{--     повышающий курс "Японский маникюр, эко глянцевание" --}}
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">повышающий
-                    курс "Японский маникюр, эко глянцевание"
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
+                    повышающий курс "Японский маникюр, эко глянцевание"
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Для действующих мастеров, которые хотят выйти на новый уровень
                 </p>
@@ -1413,11 +1414,12 @@
             </div>
         </div>
     </div>
+{{--                     курс эстетического педикюра в аппаратной технике --}}
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">курс
-                    эстетического педикюра в аппаратной технике
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
+                    курс эстетического педикюра в аппаратной технике
 
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Премиальная услуга, которую клиенты ценят за безопасность,
@@ -1583,12 +1585,12 @@
             </div>
         </div>
     </div>
+    {{--                     Повышающий курс Аппаратный и комбинированный маникюр + Архитектура ногтей --}}
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">Повышающий
-                    курс
-                    Аппаратный и комбинированный маникюр + Архитектура ногтей
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
+                    Повышающий курс Аппаратный и комбинированный маникюр + Архитектура ногтей
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Для действующих мастеров, которые хотят устранить пробелы в
                     знаниях, улучшить технику и повысить качество своих работ.</p>
