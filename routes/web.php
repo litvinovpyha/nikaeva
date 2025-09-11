@@ -33,16 +33,24 @@ Route::get('/politika-konfidencialnosti', function () {
 Route::prefix('/kursy')->group(function () {
     //  онлайн курсы
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
-//    парикмахер
+    //    парикмахер
     Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hairstylist');
     Route::get('/povyshayushchiy-kurs-po-strizhkam', [HairstylistController::class, 'hairstylistup'])->name('courses.hairstylistup');
     Route::get('/zhenskie-strizhki-koloristika', [HairstylistController::class, 'woomanstylist'])->name('courses.woomanstylist');
     Route::get('/koloristika-baza-povyshenie', [HairstylistController::class, 'coloristika'])->name('courses.coloristika');
     Route::get('/zhenskiy-master-kolorist', [HairstylistController::class, 'womanhairstylist'])->name('courses.womanhairstylist');
-//    маникюр
+    //    маникюр
     Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
-    // Route::get('/manicurebaza', [ManicureController::class, 'manicurebaza'])->name('courses.manicurebaza');
-//   лами
+    Route::get('/manikyur-idealnyj-kombinirovannyj', [ManicureController::class, 'basicIdealCombined'])->name('courses.basic_ideal_combined');
+    Route::get('/manikyur-idealnyj-kombinirovannyj-apparatnyj', [ManicureController::class, 'intensiveCombinedWithAparat'])->name('courses.intensive_combined_apparat');
+    Route::get('/bazovyj-kurs-manikyura-pedikyura', [ManicureController::class, 'basicManicurePedicure'])->name('courses.basic_manicure_pedicure');
+    Route::get('/intensivnyj-kurs-manikyura-pedikyura', [ManicureController::class, 'intensiveManicurePedicure'])->name('courses.intensive_manicure_pedicyure');
+    Route::get('/kurs-3-v-1-nail-stylist', [ManicureController::class, 'courseThreeInOneNailStylist'])->name('courses.nail_stylist_3in1');
+    Route::get('/povyshayushchij-kurs-japonskij-manikyur', [ManicureController::class, 'advancedJapaneseEcoGloss'])->name('courses.advanced_japanese_eco_gloss');
+    Route::get('/pedikyur-apparatnaya-tehnika', [ManicureController::class, 'aestheticPedicureAparat'])->name('courses.aesthetic_pedicure_apparat');
+    Route::get('/povyshayushchij-apparatnyj-kombinirovannyj', [ManicureController::class, 'advancedAparatCombinedArchitecture'])->name('courses.advanced_aparat_combined_arch');
+    Route::get('/kurs-modelirovaniya-nogtej-verhnie-formy', [ManicureController::class, 'nailModelingUpperForms'])->name('courses.nail_modeling_upper_forms');
+    //   лами
     Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
     // онлайн маникюр
     Route::get('/onlayn-manikyur', [OnlineManicureController::class, 'index'])->name('courses.onlinemanicure');

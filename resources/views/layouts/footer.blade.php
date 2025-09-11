@@ -1,6 +1,7 @@
 <div id="imageModal" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-80">
     <div class="relative">
-        <button aria-label="Open help menu" id="closeModal" class="absolute text-3xl font-bold text-white top-2 right-2">&times;</button>
+        <button aria-label="Open help menu" id="closeModal"
+            class="absolute text-3xl font-bold text-white top-2 right-2">&times;</button>
         <img id="modalImage" src="" class="max-w-full max-h-screen shadow-xl no-modal rounded-xl"
             alt="Fullscreen Image">
     </div>
@@ -37,6 +38,86 @@
                         <a href="tel:+77089727646" class=" hover:underline">+7-708-972-7646</a>
                     </li>
                 </ul>
+            </div>
+
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Парикмахер</h2>
+                <ul class="font-medium text-gray-500 ">
+                    <li class="mb-4">
+                        <a href="{{ route('courses.hairstylist') }}" class="hover:underline">Парикмахер</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.womanhairstylist') }}" class="hover:underline">Женский мастер -
+                            колорист</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.coloristika') }}" class="hover:underline">Колорист</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.woomanstylist') }}" class="hover:underline">Женский парикмахер -
+                            колорист</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.hairstylistup') }}" class="hover:underline">Повышающий курс по
+                            стрижкам</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Маникюр</h2>
+                <ul class="font-medium text-gray-500 ">
+                    <li class="mb-4">
+                        <a href="{{ route('courses.manicure') }}" class="hover:underline">Маникюр</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.basic_ideal_combined') }}" class="hover:underline">
+                            Идеальный комбинированный
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.intensive_combined_apparat') }}" class="hover:underline">
+                            Идеальный комби+аппаратный
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.basic_manicure_pedicure') }}" class="hover:underline">
+                            маникюр и педикюр
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.intensive_manicure_pedicyure') }}" class="hover:underline">
+                            Интенсивный маникюр и педикюр
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.nail_stylist_3in1') }}" class="hover:underline">
+                            Курс 3 в 1
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.advanced_japanese_eco_gloss') }}" class="hover:underline">
+                            Японский маникюр
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.aesthetic_pedicure_apparat') }}" class="hover:underline">
+                           Эстетический педикюр
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.advanced_aparat_combined_arch') }}" class="hover:underline">
+                            Повышающий курс
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="{{ route('courses.nail_modeling_upper_forms') }}" class="hover:underline">
+                            Моделирование
+                        </a>
+                    </li>
+                </ul>
+
+
             </div>
             <div>
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Написать нам:</h2>
@@ -81,33 +162,10 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Курсы</h2>
-                <ul class="font-medium text-gray-500 ">
-                    <li class="mb-4">
-                        <a href="{{ route('courses.hairstylist') }}" class="hover:underline">Парикмахер</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('courses.womanhairstylist') }}" class="hover:underline">Женский мастер - колорист</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('courses.coloristika') }}" class="hover:underline">Колорист</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('courses.woomanstylist') }}" class="hover:underline">Женский парикмахер - колорист</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('courses.hairstylistup') }}" class="hover:underline">Повышающий курс по стрижкам</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('courses.manicure') }}" class="hover:underline">Маникюр</a>
-                    </li>
-                
-                </ul>
-            </div>
         </div>
-            <div class="px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a href="https://pokhlebaeva.pro/politika-konfidencialnosti">Школа-студия красоты
+        <div class="px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a
+                    href="https://pokhlebaeva.pro/politika-konfidencialnosti">Школа-студия красоты
                     Indigo. <br class="lg:hidden"> <span class="text-blue-500">Политика конфиденциальности.</span></a>
             </span>
 
