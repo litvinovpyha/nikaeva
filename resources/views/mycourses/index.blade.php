@@ -13,10 +13,10 @@
                                 alt="{{ $course->name }}"
                                 class="object-cover w-full bg-gray-200 rounded-md no-modal aspect-square lg:aspect-auto lg:h-80 group-hover:opacity-75 transition">
 
-                            {{-- Кнопка поверх картинки --}}
-                            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
-                                <span class="px-4 py-2 text-white bg-indigo-600 rounded-lg shadow-lg">Перейти</span>
-                            </div>
+                         
+                            <div class="absolute bottom-2 left-1/2 -translate-x-1/2">
+                                <span class="px-4 py-2 text-white bg-indigo-600 rounded-lg shadow-lg text-sm">Перейти</span>
+                            </div> 
                         </div>
                     </a>
                 @endforeach
