@@ -269,7 +269,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
                             </div>
                             <!-- Заголовок -->
                             <h3 class="pt-2 mb-4 text-sm font-semibold tracking-wide text-center text-white uppercase">
@@ -383,7 +383,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -492,7 +492,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -750,7 +750,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -866,7 +866,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -1097,7 +1097,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -1355,7 +1355,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
 
                             </div>
 
@@ -1572,7 +1572,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
                             </div>
 
                             <!-- Заголовок -->
@@ -1740,7 +1740,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -30% До 25 сентября
+                                -30% До 25 октября
                             </div>
 
                             <!-- Заголовок -->
