@@ -20,7 +20,7 @@
         <div class="flex-1 flex justify-center">
             <a href="{{ route('home') }}">
                 <span class="sr-only">Академия красоты NikaEva Курсы парикмахеров, маникюра в Алматы</span>
-                <img class="w-auto no-modal" src="{{ asset(path: 'images/logo.jpg') }}" alt="school logotyle">
+                <img class="w-auto no-modal" src="{{ asset(path: 'images/logo.svg') }}" alt="school logotyle">
             </a>
         </div>
         
