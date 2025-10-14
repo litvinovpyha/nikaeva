@@ -1,8 +1,8 @@
 @extends('layouts.main')
-@section('title', 'Курсы парикмахеров и маникюра в Алматы | Indigo')
+@section('title', 'Курсы парикмахеров и маникюра в Алматы | NikaEva')
 @section('meta_description',
     'Курсы парикмахеров и маникюра в Алматы. Онлайн и офлайн обучение, сертификаты, практика.
-    Начни карьеру с Indigo.')
+    Начни карьеру с NikaEva.')
 @section('meta_keywords',
     'Курс парикмахера, курс колориста, курс маникюра, курсы педикюра, обучение маникюру, онлайн
     курсы парикмахеров, онлайн курсы маникюра, сертификат маникюр Алматы')
@@ -23,12 +23,12 @@
   "@graph": [
     {
       "@type": "Organization",
-      "name": "Школа-студия Indigo",
+      "name": "Академия-студия NikaEva",
       "url": "{{ url('/') }}",
       "logo": "{{ asset('images/logo.png') }}",
       "sameAs": [
         "https://instagram.com/pokhlebaeva.pro",
-        "https://instagram.com/indigo_hairschool"
+        "https://instagram.com/nikaeva_academy"
       ],
       "address": {
         "@type": "PostalAddress",
@@ -43,7 +43,7 @@
       "description": "Обучение с нуля. Сертификат, практика, трудоустройство. Старт каждую неделю в понедельник.",
       "provider": {
         "@type": "Organization",
-        "name": "Школа-студия Indigo",
+        "name": "Академия-студия NikaEva",
         "url": "{{ url('/') }}"
       },
       "hasCourseInstance": {
@@ -55,7 +55,7 @@
         "repeatFrequency": "Weekly",
         "location": {
           "@type": "Place",
-          "name": "Школа-студия Indigo",
+          "name": "Академия-студия NikaEva",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Алматы",
@@ -80,7 +80,7 @@
       "description": "Освой классический, аппаратный и комбинированный маникюр. Диплом, практика и поддержка. Старт каждую неделю в понедельник.",
       "provider": {
         "@type": "Organization",
-        "name": "Школа-студия Indigo",
+        "name": "Академия-студия NikaEva",
         "url": "{{ url('/') }}"
       },
       "hasCourseInstance": {
@@ -92,7 +92,7 @@
         "repeatFrequency": "Weekly",
         "location": {
           "@type": "Place",
-          "name": "Школа-студия Indigo",
+          "name": "Академия-студия NikaEva",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Алматы",
@@ -117,7 +117,7 @@
       "description": "Изучай маникюр онлайн. 36 уроков, поддержка куратора, сертификат. Начало каждую неделю в понедельник.",
       "provider": {
         "@type": "Organization",
-        "name": "Школа-студия Indigo",
+        "name": "Академия-студия NikaEva",
         "url": "{{ url('/') }}"
       },
       "hasCourseInstance": {
@@ -142,7 +142,7 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Кому подойдут курсы в Indigo?",
+          "name": "Кому подойдут курсы в NikaEva?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Курсы подойдут как новичкам без опыта, так и действующим мастерам, желающим повысить квалификацию."
@@ -161,7 +161,7 @@
           "name": "Выдают ли диплом или сертификат?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Да, после успешного завершения курса вы получаете диплом Indigo или сертификат — в зависимости от программы."
+            "text": "Да, после успешного завершения курса вы получаете диплом NikaEva или сертификат — в зависимости от программы."
           }
         }
       ]
@@ -182,7 +182,7 @@
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">6 причин
             записаться на
-            обучение в школу Indigo
+            обучение в академию NikaEva
         </h2>
         <div class="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3 md:gap-10">
             <div class="p-5 bg-white rounded-lg shadow-lg size-full ">
@@ -414,7 +414,7 @@
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">Кому стоит
             записаться
-            на курс в школу INDIGO
+            на курс в академию NIKAEVA
         </h2>
         <div class="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3 md:gap-10">
             <div class="p-5 bg-white rounded-lg shadow-lg size-full ">
@@ -552,7 +552,7 @@
     </div>
     @include('partials.reviews', ['video' => 'false', 'content' => 'index'])
     @include('partials.coursesingup', [
-        'title' => 'Почему вам стоит записаться в школу красоты indigo:',
+        'title' => 'Почему вам стоит записаться в академию красоты NikaEva:',
         'count' => '8',
     ])
     @include('partials.atmosphere')
@@ -582,7 +582,7 @@
                 </h3>
                 <div id="accordion-collapse-body-10" class="hidden" aria-labelledby="accordion-collapse-heading-10">
                     <div class="p-5 border border-b-0 border-gray-200 ">
-                        <p class="mb-2 text-blue-600 ">Обучение в нашей школе можно проходить с 14 лет
+                        <p class="mb-2 text-blue-600 ">Обучение в нашей академии можно проходить с 14 лет
                             и
                             до бесконечности, главное Ваше желание!</p>
                     </div>
@@ -672,7 +672,7 @@
                         class="flex items-center justify-between w-full gap-3 p-5 font-medium text-white bg-gray-800 rtl:text-right"
                         data-accordion-target="#accordion-collapse-body-14" aria-expanded="true"
                         aria-controls="accordion-collapse-body-14">
-                        <span class="uppercase">Обучаются ли в нашей школе ученики из ближнего и дальнего
+                        <span class="uppercase">Обучаются ли в нашей академии ученики из ближнего и дальнего
                             зарубежья?</span>
                         <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

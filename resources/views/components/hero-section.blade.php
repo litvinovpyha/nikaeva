@@ -12,7 +12,7 @@
       
         <div class="flex items-center justify-center mt-10 gap-x-6">
             <a href="{{ route('callback') }}"
-               class="px-5 py-3 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-indigo-600">
+               class="px-5 py-3 text-sm font-semibold text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-500 focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-NikaEva-600">
                 Заказать звонок
             </a>
             <a href="{{ route('courses.online')}}" class="text-sm font-semibold text-gray-900">

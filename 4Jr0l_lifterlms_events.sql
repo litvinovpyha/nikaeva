@@ -4,7 +4,7 @@
 (9, 'kamyninavika@mail.ru', 'Виктория Чапурина', 8);
 (12, 'ira.fink.2020@mail.ru', 'Ирина Финк', 8);
 (11, 'nastenaandreinikita@mail.ru', 'Анастасия Королева', 8);
-(191, 'indigo.vc@mail.ru', 'Вероника', 8);
+(191, 'NikaEva.vc@mail.ru', 'Вероника', 8);
 (168, 'tursynbayeva1999@bk.ru', 'Аяулым Турсынбаева', 8);
 (18, 'konstantinidi.1994@mail.ru', 'Анастасия Шнайдер', 8);
 (234, 'stasimaren@mail.ru', 'Марьенко Анастасия', 8);
@@ -249,7 +249,7 @@
 (189, 'kseniyakeks56@gmail.com', 'Борзилова Ксения', 3);
 (188, 'liferova.lara@bk.ru', 'Лиферова Лариса', 3);
 (187, 'Orangeik80@mail.ru', 'Кан Ирина', 3);
-(191, 'indigo.vc@mail.ru', 'Вероника', 3);
+(191, 'NikaEva.vc@mail.ru', 'Вероника', 3);
 (192, 'kharsun88@mail.ru', 'Татьяна Харсун', 3);
 (195, 'sidakovdzahar@gmail.com', 'Гасанова Эльмира', 3);
 (194, 'tany_terekta@mail.ru', 'Одинцова Татьяна', 3);
@@ -405,7 +405,7 @@
 (101, 'zhumasaeva@mail.ru', 'Зайтуна Абдувалиева', 4);
 (184, 'natazaga9@gmail.com', 'Наталья|Natalya Загуровская|Zagurovskaya', 4);
 (185, 'Breeze1982@inbox.ru', 'Айдабулова Ботагоз', 4);
-(191, 'indigo.vc@mail.ru', 'Вероника', 4);
+(191, 'NikaEva.vc@mail.ru', 'Вероника', 4);
 (193, 'sauleha87@gmail.com', 'Кунавина Сауле', 4);
 (197, 'My.activ@mail.ru', 'Макремова Гульназ', 4);
 (199, 'Barashekpedro@gmail.com', 'Пфафенрот Анастасия', 4);
@@ -530,7 +530,7 @@
 (178, 'uiguro4ka_30@mail.ru', 'Рано Идрисова', 5);
 (179, 'vesna_022@mail.ru', 'Елена Карпенко', 5);
 (183, 'zkorpach@mail.ru', 'Зарина Корпач', 5);
-(191, 'indigo.vc@mail.ru', 'Вероника', 5);
+(191, 'NikaEva.vc@mail.ru', 'Вероника', 5);
 (199, 'Barashekpedro@gmail.com', 'Пфафенрот Анастасия', 5);
 (77, 'kojsybaevaelmira206@gmail.com', 'Эльмира Жолмухамбетова', 5);
 (52, 'aaitkulovaty@gmail.com', 'Альфия Лазаренко', 5);

@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'Школа красоты Indigo Курсы парикмахеров, маникюра в Алматы')</title>
-
-    <meta name="description" content="@yield('meta_description', 'Обучение парикмахеров, мастеров маникюра, колористов с нуля. Сертификаты, практика, поддержка. Старт карьеры с Indigo!')">
-    <meta name="keywords" content="@yield('meta_keywords', 'курсы парикмахеров, курсы маникюра, обучение парикмахеров Алматы, школа маникюра')">
-
+    <title>@yield('title', 'Академия красоты NikaEva Курсы парикмахеров, маникюра в Алматы')</title>
+    <meta name="description" content="@yield('meta_description', 'Обучение парикмахеров, мастеров маникюра, колористов с нуля. Сертификаты, практика, поддержка. Старт карьеры с NikaEva!')">
+    <meta name="keywords" content="@yield('meta_keywords', 'курсы парикмахеров, курсы маникюра, обучение парикмахеров Алматы, академия маникюра')">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="@yield('title', 'Школа красоты Indigo Курсы парикмахеров, маникюра в Алматы')">
+    <meta property="og:title" content="@yield('title', 'Академия красоты NikaEva Курсы парикмахеров, маникюра в Алматы')">
     <meta property="og:description" content="@yield('meta_description')">
     <meta property="og:image" content="{{ asset('images/share.webp') }}">
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:site_name" content="Школа Indigo">
+    <meta property="og:site_name" content="Академия NikaEva">
     <meta property="og:url" content="{{ url()->current() }}">
 
     @yield('jsonld')

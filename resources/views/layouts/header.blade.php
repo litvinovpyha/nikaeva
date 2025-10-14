@@ -1,22 +1,50 @@
-<header class="fixed top-0 left-0 z-50 w-full bg-white shadow">
+<header class="fixed top-0 left-0 z-50 w-full bg-black shadow">
     <nav class="flex items-center justify-between p-3 lg:px-8" aria-label="Global">
-        <div>
-            <a href="{{ route('home') }}">
-                <span class="sr-only">Школа красоты Indigo Курсы парикмахеров, маникюра в Алматы</span>
-                <img class="w-auto no-modal" src="{{ asset(path: 'images/logo.svg') }}" alt="school logotyle">
+        <!-- Кнопки Instagram и телефона слева -->
+        <div class="grid grid-cols-2 divide-gray-900/5 lg:hidden">
+            <a href="https://www.instagram.com/pokhlebaeva.pro/?igshid=174ro53kwcgg1"
+                class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900">
+                <span class="sr-only">Наш инстаграм</span>
+                <svg class="flex-none text-white size-5 lucide lucide-instagram-icon lucide-instagram"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+            </a>
+            <a href="tel:+77089727646"
+                class="hidden lg:flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-90">
+                <span class="sr-only">Позвонить нам</span>
+                <svg class="flex-none text-white size-5" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <path fill-rule="evenodd"
+                        d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <span class="hidden lg:flex text-white">+7 (708) 97-27-646</span>
             </a>
         </div>
+        
+        <!-- Логотип по центру -->
+        <div class="flex-1 flex justify-center">
+            <a href="{{ route('home') }}">
+                <span class="sr-only">Академия красоты NikaEva Курсы парикмахеров, маникюра в Алматы</span>
+                <img class="w-auto no-modal" src="{{ asset(path: 'images/logo.jpg') }}" alt="school logotyle">
+            </a>
         </div>
+        
         <div class="flex items-center lg:gap-x-12">
-            <a href="{{ route('home') }}" class="hidden font-semibold text-gray-900 lg:flex text-sm/6">Главная</a>
+            <a href="{{ route('home') }}" class="hidden font-semibold text-white lg:flex text-sm/6">Главная</a>
             <a href="{{ route('courses.online') }}"
-                class="hidden font-semibold text-gray-900 lg:flex text-sm/6">Онлайн-обучение</a>
-            <div class="grid grid-cols-2 divide-gray-900/5 ">
+                class="hidden font-semibold text-white lg:flex text-sm/6">Онлайн-обучение</a>
+            <!-- Кнопки Instagram и телефона справа для десктопа -->
+            <div class="hidden lg:grid grid-cols-2 divide-gray-900/5">
                 <a href="https://www.instagram.com/pokhlebaeva.pro/?igshid=174ro53kwcgg1"
                     class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900">
                     <span class="sr-only">Наш инстаграм</span>
-
-                    <svg class="flex-none text-gray-900 size-5 lucide lucide-instagram-icon lucide-instagram"
+                    <svg class="flex-none text-white size-5 lucide lucide-instagram-icon lucide-instagram"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
@@ -28,14 +56,13 @@
                 <a href="tel:+77089727646"
                     class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-90">
                     <span class="sr-only">Позвонить нам</span>
-
-                    <svg class="flex-none text-gray-900 size-5" viewBox="0 0 20 20" fill="currentColor"
+                    <svg class="flex-none text-white size-5" viewBox="0 0 20 20" fill="currentColor"
                         aria-hidden="true" data-slot="icon">
                         <path fill-rule="evenodd"
                             d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span class="hidden lg:flex">+7 (708) 97-27-646</span>
+                    <span class="hidden lg:flex text-white">+7 (708) 97-27-646</span>
                 </a>
             </div>
             @auth
@@ -46,13 +73,13 @@
                         <span class="sr-only">Open user menu</span>
 
                         <p class="hidden lg:flex">{{ Auth::user()->name }}</p>
-                        <svg class="hidden text-gray-400 lg:flex size-5" viewBox="0 0 20 20" fill="currentColor"
+                        <svg class="hidden text-white lg:flex size-5" viewBox="0 0 20 20" fill="currentColor"
                             aria-hidden="true">
                             <path fill-rule="evenodd"
                                 d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <svg class="lg:hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        <svg class="lg:hidden size-6 bg-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" aria-hidden="true" data-slot="icon">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -318,7 +345,7 @@
                         onclick="toggleUserMenu()">
                         <span class="sr-only">Open user menu</span>
 
-                        <svg class=" size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        <svg class=" size-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" aria-hidden="true" data-slot="icon">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />

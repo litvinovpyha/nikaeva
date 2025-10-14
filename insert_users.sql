@@ -200,7 +200,7 @@ INSERT INTO users (name, email, password, role) VALUES ('Юлия Цечоева
 INSERT INTO users (name, email, password, role) VALUES ('Индира Жуматова', 'i.zh.86@bk.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
 INSERT INTO users (name, email, password, role) VALUES ('Диана Туриканова', 'iddidi18@gmail.com', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
 INSERT INTO users (name, email, password, role) VALUES ('Илона Князева', 'ilonaknayzeva@mail.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
-INSERT INTO users (name, email, password, role) VALUES ('Вероника', 'indigo.vc@mail.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
+INSERT INTO users (name, email, password, role) VALUES ('Вероника', 'nika.eva@mail.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
 INSERT INTO users (name, email, password, role) VALUES ('Темирбаева Индира', 'indira15_88@mail.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
 INSERT INTO users (name, email, password, role) VALUES ('Mezencev', 'info@mezencev.kz', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');
 INSERT INTO users (name, email, password, role) VALUES ('Инкар Сагинтаева', 'inkarsezim@list.ru', '$2y$12$9XKO7mRnRdnPCpnlih9z7ebVntPQ522pzrp0FhpBgs88EXNgd44gK', 'user');

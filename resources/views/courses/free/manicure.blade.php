@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('title','Бесплатный онлайн-курс маникюра — Indigo')
-@section('meta_description', 'Пройдите бесплатный онлайн-курс маникюра от Indigo. Научитесь основам техники, сервису и работе с клиентами. Бесплатный старт для начинающих мастеров.')
-@section('meta_keywords', 'бесплатный курс маникюра, онлайн курс маникюр бесплатно, бесплатное обучение маникюру, Indigo маникюр онлайн')
+@section('title','Бесплатный онлайн-курс маникюра — NikaEva')
+@section('meta_description', 'Пройдите бесплатный онлайн-курс маникюра от NikaEva. Научитесь основам техники, сервису и работе с клиентами. Бесплатный старт для начинающих мастеров.')
+@section('meta_keywords', 'бесплатный курс маникюра, онлайн курс маникюр бесплатно, бесплатное обучение маникюру, NikaEva маникюр онлайн')
 
 @section('jsonld')
 <script type="application/ld+json">
@@ -13,7 +13,7 @@
   "description": "Демо-курс для начинающих мастеров маникюра. Научитесь базовым техникам, упаковке услуги и работе с клиентами бесплатно.",
   "provider": {
     "@type": "Organization",
-    "name": "Indigo",
+    "name": "NikaEva",
     "url": "{{ url('/') }}"
   }
 }
@@ -85,7 +85,7 @@
             </div>
             <!-- Урок 7 -->
             <div>
-                <h2 class="mb-4 text-2xl font-semibold text-center text-indigo-600">Урок 7: Техника комбинированного маниюкра ножничками
+                <h2 class="mb-4 text-2xl font-semibold text-center text-indigo-600">Урок 7: Техника комбинированного маникюра ножничками
                 </h2>
                 <div class="aspect-w-16 aspect-h-9">
                     <iframe src="https://www.youtube.com/embed/TsqFwLePsVY" class="w-full h-full rounded-lg"

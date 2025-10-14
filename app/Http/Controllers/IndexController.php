@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
 
     public function index():View{
-        $title = 'Школа красоты Indigo';
+        $title = 'Академия красоты NikaEva';
         return view('index',compact('title'));
     }
 }

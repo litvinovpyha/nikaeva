@@ -1,8 +1,8 @@
 @extends('layouts.main')
 
-@section('title','Курс 3 в 1 "NAIL STYLIST" — Маникюр, Педикюр и Моделирование ногтей в Алматы | Школа Indigo')
-@section('meta_description', 'Уникальный курс 3 в 1 "NAIL STYLIST" в Алматы. Обучение маникюру, педикюру и моделированию ногтей с нуля. Сертификат, практика, диплом Indigo.')
-@section('meta_keywords', 'курс 3 в 1 nail stylist, обучение маникюр и педикюр Алматы, моделирование ногтей курсы, Indigo маникюр')
+@section('title','Курс 3 в 1 "NAIL STYLIST" — Маникюр, Педикюр и Моделирование ногтей в Алматы | Академия NikaEva')
+@section('meta_description', 'Уникальный курс 3 в 1 "NAIL STYLIST" в Алматы. Обучение маникюру, педикюру и моделированию ногтей с нуля. Сертификат, практика, диплом NikaEva.')
+@section('meta_keywords', 'курс 3 в 1 nail stylist, обучение маникюр и педикюр Алматы, моделирование ногтей курсы, NikaEva маникюр')
 
 @section('jsonld')
 <script type="application/ld+json">
@@ -10,10 +10,10 @@
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Курс 3 в 1 NAIL STYLIST — Маникюр, Педикюр, Моделирование ногтей в Алматы",
-  "description": "Комплексный курс 3 в 1 NAIL STYLIST: маникюр, педикюр и моделирование ногтей. Обучение в Алматы с дипломом Indigo, практикой и скидкой до 30%.",
+  "description": "Комплексный курс 3 в 1 NAIL STYLIST: маникюр, педикюр и моделирование ногтей. Обучение в Алматы с дипломом NikaEva, практикой и скидкой до 30%.",
   "provider": {
     "@type": "Organization",
-    "name": "Indigo",
+    "name": "NikaEva",
     "url": "{{ url('/') }}"
   }
 }
@@ -24,7 +24,7 @@
     <x-hero-section
         title="Курс 3 в 1 «NAIL STYLIST»"
         subtitle="Маникюр, педикюр и моделирование ногтей в одном курсе"
-        subsubtitle="— Стань топ-мастером вместе с Indigo!"
+        subsubtitle="— Стань топ-мастером вместе с NikaEva!"
     />
     @include('partials.guarantee', ['showFirstVideo' => false])
     <!-- курс 3 в 1 "NAIL STYLIST"  -->
@@ -394,7 +394,7 @@
     </div>
 
     @include('partials.coursesingup', [
-        'title' => 'Почему вам стоит записаться на курс маникюра и педикюра в школе indigo:',
+        'title' => 'Почему вам стоит записаться на курс маникюра и педикюра в академии NikaEva:',
         'count' => '5',
     ])
     @include('partials.reviews', ['video' => 'false', 'content' => 'manicure'])

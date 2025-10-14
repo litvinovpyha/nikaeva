@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Вход в личный кабинет — Школа-студия Indigo')
+@section('title', 'Вход в личный кабинет — Академия-студия NikaEva')
 
 @section('content')
 <x-guest-layout>

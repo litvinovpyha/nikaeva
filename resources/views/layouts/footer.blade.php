@@ -7,7 +7,7 @@
     </div>
 </div>
 <footer class="bg-white ">
-    <a href="https://indigoshop.kz/"
+    <a href="https://NikaEvashop.kz/"
         class="relative flex flex-col items-center justify-center block p-4 no-underline bg-gray-50 hover:bg-gray-100">
         <p class="p-6 text-lg font-semibold text-center text-gray-900">
             Наш магазин профессиональных инструментов
@@ -165,8 +165,8 @@
         </div>
         <div class="px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between">
             <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a
-                    href="https://pokhlebaeva.pro/politika-konfidencialnosti">Школа-студия красоты
-                    Indigo. <br class="lg:hidden"> <span class="text-blue-500">Политика конфиденциальности.</span></a>
+                    href="https://pokhlebaeva.pro/politika-konfidencialnosti">Академия-студия красоты
+                    NikaEva. <br class="lg:hidden"> <span class="text-blue-500">Политика конфиденциальности.</span></a>
             </span>
 
         </div>
