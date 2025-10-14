@@ -4,12 +4,12 @@
     "src": "public/fonts/roboto/Roboto-Regular.ttf"
   },
   "resources/css/app.css": {
-    "file": "assets/app-C6PhNJ6n.css",
+    "file": "assets/app-B1WiSkss.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-BbOyrBJ0.js",
+    "file": "assets/app-BUDJedZk.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

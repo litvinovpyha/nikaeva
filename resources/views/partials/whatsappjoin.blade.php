@@ -1,4 +1,4 @@
-<div x-data="{ open: false }" class="fixed z-50 bottom-2 right-2">
+<div x-data="{ open: false }" class="fixed z-50 bottom-2 right-2" x-init="console.log('WhatsApp Alpine.js инициализирован')">
  <button x-show="!open" @click="open = true"
     class="relative z-10 p-2 text-white bg-green-500 rounded-full shadow-lg">
   <span class="sr-only">Open help menu</span>

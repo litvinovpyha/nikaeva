@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест Alpine.js</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-button { 
+            background: #4CAF50; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            margin: 10px 0;
+        }
+        .test-div { 
+            background: #f0f0f0; 
+            padding: 20px; 
+            border-radius: 5px; 
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Тест Alpine.js</h1>
+    
+    <div x-data="{ open: false, count: 0 }">
+        <button @click="open = !open" class="test-button">
+            Переключить (Alpine.js)
+        </button>
+        
+        <button @click="count++" class="test-button">
+            Счетчик: <span x-text="count"></span>
+        </button>
+        
+        <div x-show="open" x-transition class="test-div">
+            <p>Этот блок показывается/скрывается с помощью Alpine.js!</p>
+            <p>Счетчик: <span x-text="count"></span></p>
+        </div>
+    </div>
+    
+    <div x-data="{ message: 'Привет, Alpine.js работает!' }">
+        <p x-text="message"></p>
+        <input x-model="message" placeholder="Введите сообщение" style="padding: 5px; margin: 10px 0;">
+    </div>
+    
+    <script>
+        console.log('Alpine.js загружен:', window.Alpine);
+    </script>
+</body>
+</html>

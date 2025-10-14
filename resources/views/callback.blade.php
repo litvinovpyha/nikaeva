@@ -53,7 +53,7 @@
 
         </div>
         <div class=" sm:mx-auto sm:w-full sm:max-w-sm">
-            <form action="{{ route('callback.submit') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('callback.submit') }}" method="POST">
                 @csrf
 
                 <div>

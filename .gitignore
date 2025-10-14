@@ -1,52 +1,38 @@
-# Composer & Laravel
-/vendor/                 # Composer зависимости
-vendor/
-
-node_modules/           # npm/yarn зависимости
-/node_modules/
-
-# Debug & Lock files
+# Laravel
+/vendor/
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
 npm-debug.log
 yarn-error.log
-*.log                    # Все .log файлы
 
-# Tests
-/tests                   # Если не используешь тесты — ок
+# Node.js
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
 
-# Laravel runtime
-/storage/logs/*          # Логи Laravel
-storage/*.key            # Ключи, например laravel.log.key
-public/storage           # symlink — обычно игнорируем
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Laravel .env файлы
-.env
-.env.local               # Доп. локальные переменные
+# OS
+.DS_Store
+Thumbs.db
 
-# IDE & OS
-.idea                    # JetBrains PhpStorm/WebStorm
+# Временные файлы
+*.tmp
+*.temp
 
-# Frontend build
-/public/hot              # Vite HMR флаг
-/public/build            # Vite билд, если билдить на сервере
-/public_html/hot         # Если public_html — кастомный паблик
-/public_html/storage     # Тоже кастомный паблик
 
-# Сертификаты, Vagrant, Homestead
-localhost*.pem           # Локальные сертификаты
-Homestead.yaml
-Homestead.json
-/.vagrant
+*.bat
 
-# PHPUnit
-.phpunit.result.cache
-
-# Скрипты, SQL дампы — по ситуации
-insert_users_courses.sql
-serve.bat
-migrate.bat
-
-# Лишнее — эти обычно хранятся:
-vite.config.js
-.vite
-package.json
-package-lock.json
+# SQL дампы (если не нужны в репозитории)
+*.sql

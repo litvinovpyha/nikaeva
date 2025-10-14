@@ -2,8 +2,12 @@ import Swiper from 'swiper';
 import 'swiper/css';
 import IMask from 'imask';
 import Alpine from 'alpinejs'
-window.Alpine = Alpine
-Alpine.start()
+
+// Инициализируем Alpine.js после загрузки DOM
+document.addEventListener('DOMContentLoaded', function() {
+    window.Alpine = Alpine
+    Alpine.start()
+})
 
 // Toggle user menu
 window.toggleUserMenu = function () {
