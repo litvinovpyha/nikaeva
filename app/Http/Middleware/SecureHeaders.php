@@ -59,7 +59,7 @@ class SecureHeaders
                    "style-src 'self' 'unsafe-inline' {$viteHostsStr}; " .
                    "font-src 'self' {$viteHostsStr}; " .
                    "img-src 'self' data: https://cdn-icons-png.flaticon.com; " .
-                   "frame-src 'self' https://www.youtube-nocookie.com; " .
+               "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; " .
                    "frame-ancestors 'self';";
         } else {
             // Для продакшена - стандартная безопасная CSP
@@ -68,7 +68,7 @@ class SecureHeaders
                    "style-src 'self' 'unsafe-inline'; " .
                    "font-src 'self'; " .
                    "img-src 'self' data: https://cdn-icons-png.flaticon.com; " .
-                   "frame-src 'self' https://www.youtube-nocookie.com; " .
+               "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; " .
                    "frame-ancestors 'self';";
         }
     }
