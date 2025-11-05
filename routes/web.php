@@ -85,3 +85,9 @@ Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
     Route::delete('/admin/users/{user}/revoke-course/{course}', [UserController::class, 'revokeCourse'])->name('user.revokeCourse');
     Route::delete('/lesson-contents/{content}', [LessonContentController::class, 'destroy'])->name('lesson-contents.destroy');
 });
+
+Route::get('/tintly/api/1.1/appconfig/version', function () {
+    return response()->json([
+        'version' => env('TINTLYVERSION', '1.0.0.0'),
+    ]);
+});
