@@ -88,6 +88,6 @@ Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
 
 Route::get('/tintly/api/1.1/appconfig/version', function () {
     return response()->json([
-        'version' => env('TINTLYVERSION', '1.0.0.0'),
+        'version' => env('TINTLYVERSION', '1.0.0'),
     ]);
 });
