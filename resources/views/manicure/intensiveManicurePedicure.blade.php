@@ -23,7 +23,7 @@
 @section('content')
     <x-hero-section
         title="ИНТЕНСИВНЫЙ КУРС МАНИКЮРА И ПЕДИКЮРА"
-        subtitle="Обучение с нуля до топ-мастера за 2 месяца"
+        subtitle="Обучение с нуля до топ-мастера за 2 недели"
         subsubtitle="Сертификат • Диплом • Практика • Скидка до -30%"
     />
     @include('partials.guarantee', ['showFirstVideo' => false])
