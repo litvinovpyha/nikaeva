@@ -91,3 +91,7 @@ Route::get('/tintly/api/1.1/appconfig/version', function () {
         'version' => env('TINTLYVERSION', '1.0.0'),
     ]);
 });
+
+Route::get('/tintly', function () {
+    return view('tintly.tintly');
+})->name('tintlyhome');
