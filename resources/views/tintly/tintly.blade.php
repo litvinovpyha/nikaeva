@@ -5,132 +5,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Умное приложение для hair стилиста</title>
     @vite('resources/css/app.css')
 
 </head>
 
 <body>
-    <header class="absolute inset-x-0 top-0 z-50">
-        <nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
-            <div class="flex lg:flex-1">
-                <a href="#" class="-m-1.5 p-1.5 font-bold text-2xl tracking-tight text-sky-600">
-                    <span class="sr-only">Tintly</span>
-                    Tintly
-                </a>
-
-            </div>
-            <div class="flex lg:hidden">
-                <button type="button" command="show-modal" commandfor="mobile-menu"
-                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                    <span class="sr-only">Open main menu</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon"
-                        aria-hidden="true" class="size-6">
-                        <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Основное</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">О приложении</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Как пользоваться</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Скачать</a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-
-            </div>
-        </nav>
-        <el-dialog>
-            <dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
-                <div tabindex="0" class="fixed inset-0 focus:outline-none">
-                    <el-dialog-panel
-                        class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                        <div class="flex items-center justify-between">
-                            <a href="#" class="-m-1.5 p-1.5 font-bold text-2xl tracking-tight text-[#006FFD]">
-                                <span class="sr-only">Tintly</span>
-                                Tintly
-                            </a>
-
-                            <button type="button" command="close" commandfor="mobile-menu"
-                                class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                                <span class="sr-only">Close menu</span>
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
-                                    data-slot="icon" aria-hidden="true" class="size-6">
-                                    <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="mt-6 flow-root">
-                            <div class="-my-6 divide-y divide-gray-500/10">
-                                <div class="space-y-2 py-6">
-                                    <a href="#"
-                                        class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Основное</a>
-                                    <a href="#"
-                                        class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">О
-                                        приложении</a>
-                                    <a href="#"
-                                        class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Как
-                                        пользоваться</a>
-                                    <a href="#"
-                                        class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Скачать</a>
-                                </div>
-                                <div class="py-6">
-
-                                </div>
-                            </div>
-                        </div>
-                    </el-dialog-panel>
-                </div>
-            </dialog>
-        </el-dialog>
-    </header>
 
 
-    <div class="bg-white">
-        <div class="relative isolate px-6 pt-14 lg:px-8">
-            <!-- Верхняя декоративная форма -->
-            <div aria-hidden="true"
-                class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
-                <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
-                    class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 
-                        bg-linear-to-tr from-[#006FFD] to-[#C2E0FF] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75">
-                </div>
-            </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-            <!-- Контент hero с изображением -->
-            <div
-                class="mx-auto max-w-7xl py-32 sm:py-48 lg:py-56 flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-20">
-                <!-- Текст -->
-                <div class="max-w-2xl text-center lg:text-left">
-                    <h1 class="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                        Умный калькулятор для окрашивания волос
-                    </h1>
-                    <p class="mt-8 text-lg font-medium text-gray-500 sm:text-xl/8">
-                        Введи количество красителя, оксида и шампуня — и получи итоговую цену услуги.
-                        Приложение автоматически сохраняет расчёт, клиента и услугу, чтобы всё было под контролем
-                        мастера.
-                    </p>
-                    <div class="mt-10 flex items-center justify-center lg:justify-start gap-x-6">
-                        <a href="#"
-                            class="rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-sky-500">
-                            Получить доступ
-                        </a>
-                        <a href="#" class="text-sm/6 font-semibold text-gray-900">Узнать больше →</a>
-                    </div>
-                </div>
-                {{-- 
-            <div class="flex justify-center lg:justify-end">
-                <img src="{{ asset('images/phone-mockup.png') }}" alt="Phone Mockup" class="w-72 sm:w-96 lg:w-auto">
-            </div> --}}
-            </div>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <nav
+        class="fixed top-0 z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-32 text-white text-sm">
+        <a href="/"
+            class="text-2xl sm:text-3xl font-bold tracking-tight text-sky-500 hover:text-sky-700 transition">
+            Tintly
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 transition duration-500">
+            <a href="/" class="hover:text-sky-500 transition">
+                Главная
+            </a>
+            <a href="/products" class="hover:text-sky-500 transition">
+                О приложении
+            </a>
+            <a href="/stories" class="hover:text-sky-500 transition">
+                Цены
+            </a>
+            <a href="/pricing" class="hover:text-sky-500 transition">
+                Скачать
+            </a>
         </div>
+
+        <button
+            class="hidden md:block px-6 py-2.5 bg-sky-600 hover:bg-sky-700 active:scale-95 transition-all rounded-full">
+            скачать бесплатно
+        </button>
+        <button id="open-menu" class="md:hidden active:scale-90 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-menu-icon lucide-menu">
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+            </svg>
+        </button>
+    </nav>
+    <div id="mobile-navlinks"
+        class="fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-8 md:hidden transition-transform duration-300 -translate-x-full">
+        <a href="/">
+            Главная
+        </a>
+        <a href="/products">
+            О приложении
+        </a>
+        <a href="/stories">
+            Скачать
+        </a>
+        <a href="/pricing">
+            Оплата
+        </a>
+        <button id="close-menu"
+            class="active:ring-3 active:ring-white aspect-square size-10 p-1 items-center justify-center bg-sky-600 hover:bg-sky-700 transition text-white rounded-md flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-x-icon lucide-x">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+            </svg>
+        </button>
     </div>
+
+    <div
+        class="min-h-screen relative flex flex-col    justify-end items-center  text-sm px-4 md:px-16 lg:px-24 xl:px-32 bg-black text-white">
+        <div class="absolute top-28 -z-1 left-1/2 transform -translate-x-1/2 size-72 bg-sky-600 blur-[300px]"></div>
+        <a href="#" class="group flex items-center gap-2 rounded-full  p-1 pr-3 mt-18 text-sky-100 bg-sky-200/15">
+            <span class="bg-sky-800 text-white text-xs px-3.5 py-1 rounded-full">
+                Новинка
+            </span>
+            <p class="flex items-center gap-1">
+                <span>попробуй 14 дней бесплатно</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-chevron-right-icon lucide-chevron-right group-hover:translate-x-0.5 transition duration-300">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
+            </p>
+        </a>
+        <h1 class=" uppercase text-4xl leading-[60px] md:text-6xl md:leading-[88px] font-medium max-w-2xl text-center">
+            Хватит терять деньги на ошибках
+            <span class="bg-gradient-to-r from-sky-500 to-sky-300 px-3 rounded-xl text-nowrap"> скачай Tintly
+            </span>
+
+        </h1>
+        <p class="text-base text-center text-slate-200 max-w-lg mt-6">
+            Введи количество материала — получи итоговую цену услуги.
+            Приложение сохраняет расчёт, клиента и услугу.
+        <div class="flex items-center gap-4 mt-8">
+            <button class="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-7 h-11">
+                Попробовать
+            </button>
+            <button
+                class="flex items-center gap-2 border border-sky-900 hover:bg-sky-950/50 transition rounded-full px-6 h-11">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-video-icon lucide-video">
+                    <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5" />
+                    <rect x="2" y="6" width="14" height="12" rx="2" />
+                </svg>
+                <span>посмотреть демо</span>
+            </button>
+        </div>
+        <div class="flex flex-wrap justify-center items-center gap-4 md:gap-14 mt-12">
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
+                    <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span class="text-slate-400">больше никаких "бумажек"</span>
+            </p>
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
+                    <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span class="text-slate-400">14 дней бесплатно</span>
+            </p>
+            <p class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
+                    <path d="M20 6 9 17l-5-5" />
+                </svg>
+                <span class="text-slate-400">Учет услуг и клиентов</span>
+            </p>
+        </div>
+        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/hero/hero-section-showcase.png"
+            class=" w-full rounded-[15px] max-w-4xl mt-30" alt="hero section showcase" />
+    </div>
+
+    <script>
+        const openMenu = document.getElementById("open-menu");
+        const closeMenu = document.getElementById("close-menu");
+        const navlinks = document.getElementById("mobile-navlinks");
+
+        const openMenuHandler = () => {
+            navlinks.classList.remove("-translate-x-full")
+            navlinks.classList.add("translate-x-0")
+        }
+
+        const closeMenuHandler = () => {
+            navlinks.classList.remove("translate-x-0")
+            navlinks.classList.add("-translate-x-full")
+        }
+
+        openMenu.addEventListener("click", openMenuHandler);
+        closeMenu.addEventListener("click", closeMenuHandler);
+    </script>
+
+
+
+
+
+
     <section class="bg-gray-50 py-16">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Заголовок -->
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Хватит считать вручную!</h2>
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Без бумажек и хаоса: весь учет клиентов и
+                    расходов в одном приложении</h2>
                 <p class="mt-4 text-gray-600 text-lg">Точно рассчитай расход красителя и стоимость окрашивания с нашим
                     приложением</p>
             </div>
@@ -187,7 +237,7 @@
                 <h2 class="text-base/7 font-semibold text-indigo-600">Убираем бумагу из рук</h2>
                 <p
                     class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
-                    Всё, что нужно для точного окрашивания
+                    Экономьте деньги и время: все расчеты и учет клиентов в одном приложении
                 </p>
                 <p class="mt-6 text-lg/8 text-gray-700">
                     Быстро рассчитай расход красителя и оксиданта и расходиников, посчитай стоимость окрашивания без
