@@ -106,9 +106,9 @@
                         </svg>
 
                     </div>
-                    <h3 class="text-xl font-semibold text-black mb-2">Ошибки в расчетах</h3>
-                    <p class="text-gray-700 text-center">Избегайте потери денег из-за ручных ошибок в расчетах
-                        окрашивания.</p>
+                    <h3 class="text-xl font-semibold text-black mb-2">Точные расчёты без ошибок</h3>
+                    <p class="text-gray-700 text-center">Автоматически рассчитывайте нужное количество материалов —
+                        быстро, точно и без ручных просчётов.</p>
                 </div>
 
                 <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
@@ -120,8 +120,9 @@
                         </svg>
 
                     </div>
-                    <h3 class="text-xl font-semibold text-black mb-2">Без бумажек</h3>
-                    <p class="text-gray-700 text-center">Весь учет клиентов и расходов материалов в цифровом виде.</p>
+                    <h3 class="text-xl font-semibold text-black mb-2">Удобный учёт клиентов</h3>
+                    <p class="text-gray-700 text-center">Сохраняйте информацию о клиентах: фото, формулы окрашивания,
+                        предпочтения и историю услуг — всё под рукой.</p>
                 </div>
 
                 <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
@@ -133,8 +134,9 @@
                         </svg>
 
                     </div>
-                    <h3 class="text-xl font-semibold text-black mb-2">Контроль расходов</h3>
-                    <p class="text-gray-700 text-center">Следите за расходами материалов в реальном времени.
+                    <h3 class="text-xl font-semibold text-black mb-2">История и аналитика</h3>
+                    <p class="text-gray-700 text-center">Просматривайте историю окрашиваний и анализируйте, какие
+                        формулы и продукты вы используете чаще всего.
                     </p>
                 </div>
 
@@ -149,8 +151,9 @@
                         </svg>
 
                     </div>
-                    <h3 class="text-xl font-semibold text-black mb-2">Аналитика доходов</h3>
-                    <p class="text-gray-700 text-center">Приложение формирует отчеты и графики для оптимизации работы.
+                    <h3 class="text-xl font-semibold text-black mb-2">Быстрый доступ к истории услуг</h3>
+                    <p class="text-gray-700 text-center">
+Все предыдущие услуги клиента всегда под рукой — ничего не теряется.
                     </p>
                 </div>
 
@@ -178,8 +181,8 @@
 
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-2">Экономия времени</h3>
-                    <p class="text-gray-700 text-center">Все функции собраны в одном приложении, без необходимости
-                        вести отдельные записи.</p>
+                    <p class="text-gray-700 ztext-center">Больше не нужно искать формулы, прошлые записи или фото
+                        клиентов — всё хранится в одном месте и открывается за секунды.</p>
                 </div>
             </div>
 
