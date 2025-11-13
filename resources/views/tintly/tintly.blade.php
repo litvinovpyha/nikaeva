@@ -46,7 +46,7 @@
             class="hidden md:block px-6 py-2.5 bg-sky-600 hover:bg-sky-700 active:scale-95 transition-all rounded-full">
             скачать бесплатно
         </button>
-        <button id="open-menu" class="md:hidden active:scale-90 transition">
+        {{-- <button id="open-menu" class="md:hidden active:scale-90 transition">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-menu-icon lucide-menu">
@@ -54,42 +54,21 @@
                 <path d="M4 12h16" />
                 <path d="M4 19h16" />
             </svg>
-        </button>
+        </button> --}}
     </nav>
-    <div id="mobile-navlinks"
-        class="fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-8 md:hidden transition-transform duration-300 -translate-x-full">
-        <a href="/">
-            Главная
-        </a>
-        <a href="/products">
-            О приложении
-        </a>
-        <a href="/stories">
-            Скачать
-        </a>
-        <a href="/pricing">
-            Оплата
-        </a>
-        <button id="close-menu"
-            class="active:ring-3 active:ring-white aspect-square size-10 p-1 items-center justify-center bg-sky-600 hover:bg-sky-700 transition text-white rounded-md flex">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="lucide lucide-x-icon lucide-x">
-                <path d="M18 6 6 18" />
-                <path d="m6 6 12 12" />
-            </svg>
-        </button>
-    </div>
 
-    <div
-        class="min-h-screen relative flex flex-col    justify-end items-center  text-sm px-4 md:px-16 lg:px-24 xl:px-32 bg-black text-white">
-        <div class="absolute top-28 -z-1 left-1/2 transform -translate-x-1/2 size-72 bg-sky-600 blur-[300px]"></div>
-        <a href="#" class="group flex items-center gap-2 rounded-full  p-1 pr-3 mt-18 text-sky-100 bg-sky-200/15">
+    <div class=" absolute left-1/2 transform -translate-x-1/2 size-72 bg-sky-600 blur-[300px]"></div>
+
+    <section
+        class="bg-black text-white min-h-screen flex flex-col justify-center items-center px-6 lg:px-8 text-center">
+        <a href="#" class="group flex items-center gap-2 rounded-full mb-20  p-1 pr-3 text-sky-100 bg-sky-200/15">
             <span class="bg-sky-800 text-white text-xs px-3.5 py-1 rounded-full">
                 Новинка
             </span>
             <p class="flex items-center gap-1">
-                <span>попробуй 14 дней бесплатно</span>
+                <span class="block lg:hidden">попробуй бесплатно</span>
+
+                <span class="hidden lg:block">попробуй 14 дней бесплатно</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="lucide lucide-chevron-right-icon lucide-chevron-right group-hover:translate-x-0.5 transition duration-300">
@@ -97,277 +76,325 @@
                 </svg>
             </p>
         </a>
-        <h1 class=" uppercase text-4xl leading-[60px] md:text-6xl md:leading-[88px] font-medium max-w-2xl text-center">
-            Хватит терять деньги на ошибках
-            <span class="bg-gradient-to-r from-sky-500 to-sky-300 px-3 rounded-xl text-nowrap"> скачай Tintly
+        <h1 class="font-medium  text-3xl  text-center uppercase md:text-5xl max-w-3xl  mb-8">
+            без бумажек и хаоса: весь учет клиентов и расходов материалов в одном приложении для
+            <span
+                class="bg-gradient-to-r leading-[60px]  font-medium  text-3xl  text-center uppercase md:text-5xl max-w-3xl from-sky-500 to-sky-300 px-3 rounded-xl text-nowrap">
+                hair стилистов
             </span>
-
         </h1>
-        <p class="text-base text-center text-slate-200 max-w-lg mt-6">
-            Введи количество материала — получи итоговую цену услуги.
-            Приложение сохраняет расчёт, клиента и услугу.
-        <div class="flex items-center gap-4 mt-8">
-            <button class="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-7 h-11">
-                Попробовать
-            </button>
-            <button
-                class="flex items-center gap-2 border border-sky-900 hover:bg-sky-950/50 transition rounded-full px-6 h-11">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-video-icon lucide-video">
-                    <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5" />
-                    <rect x="2" y="6" width="14" height="12" rx="2" />
-                </svg>
-                <span>посмотреть демо</span>
-            </button>
-        </div>
-        <div class="flex flex-wrap justify-center items-center gap-4 md:gap-14 mt-12">
-            <p class="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
-                    <path d="M20 6 9 17l-5-5" />
-                </svg>
-                <span class="text-slate-400">больше никаких "бумажек"</span>
-            </p>
-            <p class="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
-                    <path d="M20 6 9 17l-5-5" />
-                </svg>
-                <span class="text-slate-400">14 дней бесплатно</span>
-            </p>
-            <p class="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="lucide lucide-check-icon lucide-check size-5 text-sky-600">
-                    <path d="M20 6 9 17l-5-5" />
-                </svg>
-                <span class="text-slate-400">Учет услуг и клиентов</span>
-            </p>
-        </div>
-        <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/hero/hero-section-showcase.png"
-            class=" w-full rounded-[15px] max-w-4xl mt-30" alt="hero section showcase" />
-    </div>
 
-    <script>
-        const openMenu = document.getElementById("open-menu");
-        const closeMenu = document.getElementById("close-menu");
-        const navlinks = document.getElementById("mobile-navlinks");
-
-        const openMenuHandler = () => {
-            navlinks.classList.remove("-translate-x-full")
-            navlinks.classList.add("translate-x-0")
-        }
-
-        const closeMenuHandler = () => {
-            navlinks.classList.remove("translate-x-0")
-            navlinks.classList.add("-translate-x-full")
-        }
-
-        openMenu.addEventListener("click", openMenuHandler);
-        closeMenu.addEventListener("click", closeMenuHandler);
-    </script>
+        <a href="#download"
+            class="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-4 px-8 rounded-lg transition">
+            Начать использовать
+        </a>
+    </section>
 
 
+    <section class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-black mb-12">Какие проблемы решает приложение</h2>
 
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Блок -->
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                        </svg>
 
-
-
-    <section class="bg-gray-50 py-16">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <!-- Заголовок -->
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">Без бумажек и хаоса: весь учет клиентов и
-                    расходов в одном приложении</h2>
-                <p class="mt-4 text-gray-600 text-lg">Точно рассчитай расход красителя и стоимость окрашивания с нашим
-                    приложением</p>
-            </div>
-
-            <!-- Сетка с проблемами и решениями -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <!-- Проблемы -->
-                <div class="space-y-6">
-                    <h3 class="text-xl font-semibold text-red-600">Проблемы без приложения</h3>
-                    <ul class="space-y-4 text-gray-700">
-                        <li class="flex items-start">
-                            <span class="text-red-500 mr-3 text-xl">❌</span>
-                            <span>Трата времени на ручные расчёты и бумажные заметки</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-red-500 mr-3 text-xl">❌</span>
-                            <span>Ошибки в подсчёте стоимости для клиента</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-red-500 mr-3 text-xl">❌</span>
-                            <span>Сложно вести точный учет количества материалов</span>
-                        </li>
-
-
-                    </ul>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Ошибки в расчетах</h3>
+                    <p class="text-gray-700 text-center">Избегайте потери денег из-за ручных ошибок в расчетах
+                        окрашивания.</p>
                 </div>
 
-                <!-- Решения -->
-                <div class="space-y-6">
-                    <h3 class="text-xl font-semibold text-green-600">Как наше приложение помогает</h3>
-                    <ul class="space-y-4 text-gray-700">
-                        <li class="flex items-start">
-                            <span class="text-green-500 mr-3 text-xl">✅</span>
-                            <span>Автоматический расчёт расхода материалов — просто вводишь количество</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-green-500 mr-3 text-xl">✅</span>
-                            <span>Экономия времени — расчёт мгновенный, без бумаги</span>
-                        </li>
-                        <li class="flex items-start">
-                            <span class="text-green-500 mr-3 text-xl">✅</span>
-                            <span>Точная стоимость для клиента — точный рассход для салона</span>
-                        </li>
-                    </ul>
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Без бумажек</h3>
+                    <p class="text-gray-700 text-center">Весь учет клиентов и расходов материалов в цифровом виде.</p>
+                </div>
+
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+                        </svg>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Контроль расходов</h3>
+                    <p class="text-gray-700 text-center">Следите за расходами материалов в реальном времени.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Аналитика доходов</h3>
+                    <p class="text-gray-700 text-center">Приложение формирует отчеты и графики для оптимизации работы.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Оптимизация материалов</h3>
+                    <p class="text-gray-700 text-center">Планируйте использование краски и расходников без лишних трат.
+                    </p>
+                </div>
+
+                <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
+                    <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                        </svg>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-2">Экономия времени</h3>
+                    <p class="text-gray-700 text-center">Все функции собраны в одном приложении, без необходимости
+                        вести отдельные записи.</p>
                 </div>
             </div>
 
-
+            <p class="text-black mt-12 mb-6">Начните использовать приложение сегодня и забудьте про хаос в учете!</p>
+            <a href="#download"
+                class="inline-block bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition">Попробовать
+                бесплатно</a>
         </div>
     </section>
-    <div class="bg-white py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl lg:text-center">
-                <h2 class="text-base/7 font-semibold text-indigo-600">Убираем бумагу из рук</h2>
-                <p
-                    class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
-                    Экономьте деньги и время: все расчеты и учет клиентов в одном приложении
-                </p>
-                <p class="mt-6 text-lg/8 text-gray-700">
-                    Быстро рассчитай расход красителя и оксиданта и расходиников, посчитай стоимость окрашивания без
-                    ошибок. Сохрани услугу и клиента.
-                </p>
+
+    <section class=" bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold  text-white">Разработано специально для вашей
+                    команды hair стилистов</h2>
+                <p class="mb-5 font-light  sm:text-xl text-gray-400">В Tintly от NikaEva
+                    мы сосредоточены на создании
+                    технологий, которые помогают heir-мастерам экономить время и ресурсы, повышая
+                    ценность их бизнеса и способствуя развитию индустрии красоты.</p>
             </div>
-
-            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-
-                    <!-- Функция 1 -->
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
-                                </svg>
-
-                            </div>
-                            Автоматический расчёт красителя
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Вводишь количество, а приложение считает точную оплату.
-                        </dd>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <div
+                    class="flex flex-col p-6 mx-auto max-w-lg text-center  rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Индивидуальный</h3>
+                    <p class="font-light  sm:text-lg text-gray-400">Лучший вариант для личного пользования.</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold"> 990</span>
+                        <span class=" text-gray-400">/месяц</span>
                     </div>
-
-                    <!-- Функция 2 -->
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                </svg>
-
-                            </div>
-                            Экономия времени
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Мгновенные расчёты без ручных формул и бумажных заметок.
-                        </dd>
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Персональная настройка под мастера</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Без скрытых платежей</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Команда: <span class="font-semibold">1 мастер</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Premium-поддержка: <span class="font-semibold">6 месяцев</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Первые 14 дней — <span class="font-semibold">БЕСПЛАТНО</span></span>
+                        </li>
+                    </ul>
+                    <a href="#"
+                        class=" bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900">
+                        Начать</a>
+                </div>
+                <!-- Pricing Card -->
+                <div
+                    class="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg border shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Салон</h3>
+                    <p class="font-light  sm:text-lg text-gray-400">Идеально для салонов с несколькими специалистами,
+                        расширенная и премиум-поддержка.</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">1 990</span>
+                        <span class=" text-gray-400">/месяц</span>
                     </div>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Всё из тарифа «Индивидуальный»</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Команда до 8 мастеров</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Расширенная Premium-поддержка<span class="font-semibold">24 месяца</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Автоматическая запись клиентов<span class="font-semibold"></span></span>
+                        </li>
 
-                    <!-- Функция 3 -->
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                </svg>
-
-                            </div>
-                            Точная стоимость
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Учитываются цены красителя и оксиданта, чтобы клиент видел реальную сумму.
-                        </dd>
+                    </ul>
+                    <a href="#"
+                        class="bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900">
+                        Начать</a>
+                </div>
+                <!-- Pricing Card -->
+                <div
+                    class="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Энтерпрайс</h3>
+                    <p class="font-light  sm:text-lg text-gray-400">Подписка без ограничений. Все включено</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">2 990</span>
+                        <span class=" text-gray-400">/месяц</span>
                     </div>
-
-                    <!-- Функция 4 -->
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="m20.25 7.5-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
-                                </svg>
-
-                            </div>
-                            История расчётов
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Сохраняй предыдущие расчёты и используй.
-                        </dd>
-                    </div>
-
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <!-- Иконка: учет клиентов (например, UserIcon из Heroicons) -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                                </svg>
-
-                            </div>
-                            Учёт клиентов
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Сохраняйте информацию о клиентах, истории окрашиваний и предпочтения для удобного повторного
-                            обслуживания.
-                        </dd>
-                    </div>
-
-
-                    <!-- Функция 6 -->
-                    <div class="relative pl-16">
-                        <dt class="text-base/7 font-semibold text-gray-900">
-                            <div
-                                class="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-sky-600">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-                                </svg>
-
-                            </div>
-                            Удобный интерфейс
-                        </dt>
-                        <dd class="mt-2 text-base/7 text-gray-600">
-                            Интуитивно понятный дизайн и мобильная версия для работы прямо с телефона.
-                        </dd>
-                    </div>
-
-                </dl>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Всё из тарифов «Индивидуальный» и «Салон»</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Неограниченное количество мастеров</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Расширенная Premium+ поддержка <span class="font-semibold">36 месяцев</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Индивидуальные решения под нужды вашего бизнеса<span
+                                    class="font-semibold"></span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span><span class="font-semibold">Расширенные инструменты аналитики и
+                                    управления</span></span>
+                        </li>
+                    </ul>
+                    <a href="#"
+                        class=" bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900">
+                        Начать</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <section class="bg-sky-600 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -391,11 +418,10 @@
     </section>
     <footer class="bg-white rounded-lg shadow-sm m-4 ">
         <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center ">© 2025 <a href=""
-                    class="hover:underline">Tintly</a>. Все
+            <span class="text-sm  sm:text-center ">© 2025 <a href="" class="hover:underline">Tintly</a>. Все
                 права защищены.
             </span>
-            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500  sm:mt-0">
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium   sm:mt-0">
                 <li>
                     <a href="" class="hover:underline me-4 md:me-6">Основное</a>
                 </li>
