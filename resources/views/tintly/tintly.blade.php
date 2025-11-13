@@ -19,6 +19,10 @@
         * {
             font-family: 'Poppins', sans-serif;
         }
+
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
     <nav
         class="fixed top-0 z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-32 text-white text-sm">
@@ -31,13 +35,13 @@
             <a href="/" class="hover:text-sky-500 transition">
                 Главная
             </a>
-            <a href="/products" class="hover:text-sky-500 transition">
+            <a href="/" class="hover:text-sky-500 transition">
                 О приложении
             </a>
-            <a href="/stories" class="hover:text-sky-500 transition">
+            <a href="#prising" class="hover:text-sky-500 transition">
                 Цены
             </a>
-            <a href="/pricing" class="hover:text-sky-500 transition">
+            <a href="#prising" class="hover:text-sky-500 transition">
                 Скачать
             </a>
         </div>
@@ -61,7 +65,8 @@
 
     <section
         class="bg-black text-white min-h-screen flex flex-col justify-center items-center px-6 lg:px-8 text-center">
-        <a href="#" class="group flex items-center gap-2 rounded-full mb-20  p-1 pr-3 text-sky-100 bg-sky-200/15">
+        <a href="#prising"
+            class="group flex items-center gap-2 rounded-full mb-20  p-1 pr-3 text-sky-100 bg-sky-200/15">
             <span class="bg-sky-800 text-white text-xs px-3.5 py-1 rounded-full">
                 Новинка
             </span>
@@ -84,8 +89,7 @@
             </span>
         </h1>
 
-        <a href="#download"
-            class="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-4 px-8 rounded-lg transition">
+        <a href="#prising" class="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-4 px-8 rounded-lg transition">
             Начать использовать
         </a>
     </section>
@@ -96,7 +100,6 @@
             <h2 class="text-3xl font-bold text-black mb-12">Какие проблемы решает приложение</h2>
 
             <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                <!-- Блок -->
                 <div class="flex flex-col items-center p-6 rounded-lg  hover:shadow-lg transition">
                     <div class="bg-sky-600 text-white rounded-md p-4 mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
@@ -116,8 +119,9 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                         </svg>
+
 
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-2">Удобный учёт клиентов</h3>
@@ -135,8 +139,8 @@
 
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-2">История и аналитика</h3>
-                    <p class="text-gray-700 text-center">Просматривайте историю окрашиваний и анализируйте, какие
-                        формулы и продукты вы используете чаще всего.
+                    <p class="text-gray-700 text-center">Просматривайте историю услуг, клиентов, затраченых материалов,
+                        за определенный период.
                     </p>
                 </div>
 
@@ -153,7 +157,7 @@
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-2">Быстрый доступ к истории услуг</h3>
                     <p class="text-gray-700 text-center">
-Все предыдущие услуги клиента всегда под рукой — ничего не теряется.
+                        Все предыдущие услуги клиента всегда под рукой — ничего не теряется.
                     </p>
                 </div>
 
@@ -162,12 +166,13 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m6.75 12H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
                         </svg>
 
                     </div>
-                    <h3 class="text-xl font-semibold text-black mb-2">Оптимизация материалов</h3>
-                    <p class="text-gray-700 text-center">Планируйте использование краски и расходников без лишних трат.
+                    <h3 class="text-xl font-semibold text-black mb-2">Без бумажек и блокнотов</h3>
+                    <p class="text-gray-700 text-center">
+                        Все записи в цифровом виде — просто откройте приложение и работайте без хаоса и тетрадей.
                     </p>
                 </div>
 
@@ -186,14 +191,10 @@
                 </div>
             </div>
 
-            <p class="text-black mt-12 mb-6">Начните использовать приложение сегодня и забудьте про хаос в учете!</p>
-            <a href="#download"
-                class="inline-block bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-sky-700 transition">Попробовать
-                бесплатно</a>
         </div>
     </section>
 
-    <section class=" bg-gray-900">
+    <section class=" bg-gray-900" id="prising">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold  text-white">Разработано специально для вашей
@@ -214,7 +215,6 @@
                     </div>
                     <ul role="list" class="mb-8 space-y-4 text-left">
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -224,7 +224,6 @@
                             <span>Персональная настройка под мастера</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -234,7 +233,6 @@
                             <span>Без скрытых платежей</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -244,7 +242,6 @@
                             <span>Команда: <span class="font-semibold">1 мастер</span></span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -254,7 +251,6 @@
                             <span>Premium-поддержка: <span class="font-semibold">6 месяцев</span></span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -268,7 +264,6 @@
                         class=" bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900">
                         Начать</a>
                 </div>
-                <!-- Pricing Card -->
                 <div
                     class="flex flex-col p-6 mx-auto max-w-lg text-center   rounded-lg border shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
                     <h3 class="mb-4 text-2xl font-semibold">Салон</h3>
@@ -278,10 +273,8 @@
                         <span class="mr-2 text-5xl font-extrabold">1 990</span>
                         <span class=" text-gray-400">/месяц</span>
                     </div>
-                    <!-- List -->
                     <ul role="list" class="mb-8 space-y-4 text-left">
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -291,17 +284,15 @@
                             <span>Всё из тарифа «Индивидуальный»</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
                                     d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                     clip-rule="evenodd"></path>
                             </svg>
-                            <span>Команда до 8 мастеров</span>
+                            <span>Команда до 5 мастеров</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -310,8 +301,7 @@
                             </svg>
                             <span>Расширенная Premium-поддержка<span class="font-semibold">24 месяца</span></span>
                         </li>
-                        <li class="flex items-center space-x-3">
-                            <!-- Icon -->
+                        {{-- <li class="flex items-center space-x-3">
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -319,14 +309,13 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                             <span>Автоматическая запись клиентов<span class="font-semibold"></span></span>
-                        </li>
+                        </li> --}}
 
                     </ul>
                     <a href="#"
                         class="bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900">
                         Начать</a>
                 </div>
-                <!-- Pricing Card -->
                 <div
                     class="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border  shadow border-gray-600 xl:p-8 bg-gray-800 text-white">
                     <h3 class="mb-4 text-2xl font-semibold">Энтерпрайс</h3>
@@ -335,10 +324,8 @@
                         <span class="mr-2 text-5xl font-extrabold">2 990</span>
                         <span class=" text-gray-400">/месяц</span>
                     </div>
-                    <!-- List -->
                     <ul role="list" class="mb-8 space-y-4 text-left">
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -348,7 +335,6 @@
                             <span>Всё из тарифов «Индивидуальный» и «Салон»</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -358,7 +344,6 @@
                             <span>Неограниченное количество мастеров</span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -368,7 +353,6 @@
                             <span>Расширенная Premium+ поддержка <span class="font-semibold">36 месяцев</span></span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -379,7 +363,6 @@
                                     class="font-semibold"></span></span>
                         </li>
                         <li class="flex items-center space-x-3">
-                            <!-- Icon -->
                             <svg class="flex-shrink-0 w-5 h-5  text-green-400" fill="currentColor"
                                 viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -408,11 +391,11 @@
                 приложении.
             </p>
             <div class="mt-8 flex justify-center gap-x-4">
-                <a href="#download"
+                <a href="#prising"
                     class="inline-block rounded-lg bg-white px-6 py-3 text-base font-semibold text-sky-600 shadow hover:bg-gray-100">
                     Скачать приложение
                 </a>
-                <a href="#demo"
+                <a href="#prising"
                     class="inline-block rounded-lg px-6 py-3 text-base font-semibold text-white ring-1 ring-white hover:bg-sky-500">
                     оставить сообщение
                 </a>
