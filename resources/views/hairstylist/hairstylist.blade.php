@@ -1066,7 +1066,7 @@
                     </li>
                 </ul>
          
-                @include('partials.accordion', ['id' => 2, 'content' => 'womangeometrystylist'])
+                @include('partials.accordion', ['id' => 6, 'content' => 'womangeometrystylist'])
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
                     <div class="flex items-center justify-center px-0 py-4">
                         <div
