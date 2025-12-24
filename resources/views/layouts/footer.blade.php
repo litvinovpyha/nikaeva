@@ -159,11 +159,11 @@
                             </svg>
                             Наш Whats'app
                         </a>
-                        <!-- <a href="{{ route('offer') }}" target="_blank"
+                        <a href="{{ route('offer') }}" target="_blank"
                             class="flex items-center hover:underline gap-x-2">
                          
                             Наш Whats'app
-                        </a> -->
+                        </a>
                     </li>
                 </ul>
             </div>
