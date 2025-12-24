@@ -1,4 +1,4 @@
-@extends('layouts.main')
+<!-- @extends('layouts.main')
 
 @section('title', 'Публичная оферта — Tintly')
 
@@ -251,4 +251,4 @@
     </div>
 
 </div>
-@endsection
+@endsection -->
