@@ -29,10 +29,6 @@ Route::post('/obratnyi-zvonok', [CallbackController::class, 'store'])->name('cal
 Route::get('/politika-konfidencialnosti', function () {
     return view('privacy');
 });
-// Route::get('/offer', function () {
-//     return view('offer')->name('offer');
-// });
-
 Route::prefix('/kursy')->group(function () {
     //  онлайн курсы
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
