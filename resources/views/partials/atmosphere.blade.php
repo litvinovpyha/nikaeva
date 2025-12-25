@@ -17,6 +17,14 @@
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm13.webp') }}" alt="атмосфера"
+                            class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm14.webp') }}" alt="атмосфера"
+                            class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
                         <img src="{{ asset('images/atmosphere/index/atm1.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
