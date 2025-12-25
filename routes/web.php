@@ -17,6 +17,7 @@ use App\Http\Controllers\LessonContentController;
 use App\Http\Controllers\LessonsController;
 use App\Http\Controllers\ManicureController;
 use App\Http\Controllers\OnlineTrainingController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\WoomanHairstylistController;
 use App\Http\Controllers\WoomanStylistController;
@@ -24,6 +25,8 @@ use App\Http\Middleware\IsAdmin;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
+Route::get('/payment', [PaymentController::class, 'index'])->name('payment');
+
 Route::get('/obratnyi-zvonok', [CallbackController::class, 'show'])->name('callback');
 Route::post('/obratnyi-zvonok', [CallbackController::class, 'store'])->name('callback.submit');
 Route::get('/politika-konfidencialnosti', function () {
