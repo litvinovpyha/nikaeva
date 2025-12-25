@@ -160,6 +160,13 @@
                             Наш Whats'app
                         </a>
                     </li>
+                    <li class="mb-4">
+                        <a href="/offer" target="_blank"
+                            class="flex items-center hover:underline gap-x-2">
+                          Договор Оферты
+                         
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
